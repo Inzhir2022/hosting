@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 37,
+            "activePatchIndex": 38,
             "patches": [
                 {
                     "date": 1657814564011,
@@ -156,6 +156,10 @@
                 {
                     "date": 1657815921109,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,12 @@\n $line-height-main-text: 30px;\r\n $font-size-mini-text: 16px;\r\n $line-height-mini-text: 24px;\r\n \r\n+$font-weight-regular: 400;\r\n+$font-weight-medium: 500;\r\n+$font-weight-bold: 600;\r\n+\r\n //Links\r\n $font-size-link: 16px;\r\n $line-height-link: 24px;\r\n $font-style-link: italic;\r\n@@ -40,7 +44,4 @@\n $font-size-btn2: 20px;\r\n $line-height-btn2: 30px;\r\n $letter-spacing-btns: 0.035em;\r\n \r\n-$font-weight-regular: 400;\r\n-$font-weight-medium: 500;\r\n-$font-weight-bold: 600;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657817592520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n $line-height-mini-text: 24px;\r\n \r\n $font-weight-regular: 400;\r\n $font-weight-medium: 500;\r\n-$font-weight-bold: 600;\r\n+$font-weight-semibold: 600;\r\n \r\n //Links\r\n $font-size-link: 16px;\r\n $line-height-link: 24px;\r\n"
                 }
             ],
             "date": 1657814564011,

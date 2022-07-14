@@ -3,11 +3,23 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1657816094249,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1657816640025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+<!DOCTYPE html>\r\n+<html lang=\"ru\">\r\n+\r\n+<head>\r\n+  <meta charset=\"UTF-8\">\r\n+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+  <link rel=\"stylesheet\" href=\"css/style.min.css\">\r\n+  <title>Hosting</title>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657817654593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,12 @@\n <head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n   <link rel=\"stylesheet\" href=\"css/style.min.css\">\r\n-  <title>Hosting</title>\n\\ No newline at end of file\n+  <title>Hosting</title>\r\n+</head>\r\n+\r\n+<body>\r\n+\r\n+</body>\r\n+\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657817693009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,7 +9,8 @@\n </head>\r\n \r\n <body>\r\n \r\n+  <script src=\"js/main.js\"></script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1657816094249,

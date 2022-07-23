@@ -1,0 +1,326 @@
+{
+    "sourceFile": "src/sass/blocks/_ssl.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 77,
+            "patches": [
+                {
+                    "date": 1658214769900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1658214792532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .ssl {\r\n-  margin-top: 40px;\r\n+  margin-top: 94px;\r\n   .container {\r\n     grid-template-rows: 72px 200px 580px 1fr;\r\n   }\r\n   &__title {\r\n"
+                },
+                {
+                    "date": 1658214805816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   .container {\r\n     grid-template-rows: 72px 200px 580px 1fr;\r\n   }\r\n   &__title {\r\n-    grid-column: 1/12;\r\n+    width: 1180px;\r\n     text-align: center;\r\n     font-weight: 400;\r\n     font-size: 48px;\r\n     line-height: 72px;\r\n"
+                },
+                {
+                    "date": 1658214881148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,11 @@\n   &__descr {\r\n     grid-column: 1/8;\r\n     grid-row: 2;\r\n     margin-top: 57px;\r\n+    font-size: 20px;\r\n+    line-height: 30px;\r\n+    \r\n   }\r\n   .comodo {\r\n     grid-column: 1/3;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658214891914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     grid-row: 2;\r\n     margin-top: 57px;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n-    \r\n+    font-weight: 400;\r\n   }\r\n   .comodo {\r\n     grid-column: 1/3;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658214930086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n   &__descr {\r\n     grid-column: 1/8;\r\n     grid-row: 2;\r\n     margin-top: 57px;\r\n+    width: 730px;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n     font-weight: 400;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658215196705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,11 @@\n     width: 730px;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n     font-weight: 400;\r\n+    .maintext_bold {\r\n+      font-weight: 600;\r\n+    }\r\n   }\r\n   .comodo {\r\n     grid-column: 1/3;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658215297885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,11 @@\n     font-weight: 400;\r\n     .maintext_bold {\r\n       font-weight: 600;\r\n     }\r\n+    &_second {\r\n+      margin-top: 23px;\r\n+    }\r\n   }\r\n   .comodo {\r\n     grid-column: 1/3;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658215549425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n \r\n   }\r\n \r\n   &__btn {\r\n-    grid-column: 1/12;\r\n+    grid-column: 5;\r\n     grid-row: 4;\r\n     margin-top: 60px;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658215652985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -106,7 +106,8 @@\n \r\n   &__btn {\r\n     grid-column: 5;\r\n     grid-row: 4;\r\n-    margin-top: 60px;\r\n+    margin-top: 81px;\r\n+    margin-left: 32px;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658215683396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,11 +100,9 @@\n         line-height: 24px;\r\n         font-weight: 400;\r\n       }\r\n     }\r\n-\r\n   }\r\n-\r\n   &__btn {\r\n     grid-column: 5;\r\n     grid-row: 4;\r\n     margin-top: 81px;\r\n"
+                },
+                {
+                    "date": 1658241590359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .ssl {\r\n+  background: #F8F8F8;;\r\n   margin-top: 94px;\r\n   .container {\r\n     grid-template-rows: 72px 200px 580px 1fr;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658241646314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n   }\r\n   &__descr {\r\n     grid-column: 1/8;\r\n     grid-row: 2;\r\n-    margin-top: 57px;\r\n+    margin-top: 53px;\r\n     width: 730px;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n     font-weight: 400;\r\n"
+                },
+                {
+                    "date": 1658241742979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,9 @@\n   }\r\n   &__card {\r\n     position: relative;\r\n     padding-bottom: 30px;\r\n+    margin-top: 44px;\r\n     width: 280px;\r\n     height: 551px;\r\n     background: rgba(103, 168, 210, 0.1);\r\n     border: 1px solid rgba(103, 168, 210, 0.3);\r\n"
+                },
+                {
+                    "date": 1658241799644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);\r\n     border-radius: 10px;\r\n     &-number {\r\n       position: absolute;\r\n-      top: 18px;\r\n+      top: -9px;\r\n       left: 13px;\r\n       font-size: 72px;\r\n       line-height: 108px;\r\n       font-weight: 600;\r\n"
+                },
+                {
+                    "date": 1658242014899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n       color: #3C3B3B;\r\n       text-align: center;\r\n     }\r\n     &-price {\r\n-      margin-top: 60px;\r\n+      margin-top: 70px;\r\n       text-align: center;\r\n       font-size: 24px;\r\n       line-height: 36px;\r\n       font-weight: 600;\r\n"
+                },
+                {
+                    "date": 1658242524097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,8 +49,13 @@\n     background: rgba(103, 168, 210, 0.1);\r\n     border: 1px solid rgba(103, 168, 210, 0.3);\r\n     box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);\r\n     border-radius: 10px;\r\n+    .positive {\r\n+      margin-top: -15px;\r\n+      margin-left: 8px;\r\n+}\r\n+    }\r\n     &-number {\r\n       position: absolute;\r\n       top: -9px;\r\n       left: 13px;\r\n"
+                },
+                {
+                    "date": 1658242595908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n     border-radius: 10px;\r\n     .positive {\r\n       margin-top: -15px;\r\n       margin-left: 8px;\r\n-}\r\n+      \r\n     }\r\n     &-number {\r\n       position: absolute;\r\n       top: -9px;\r\n"
+                },
+                {
+                    "date": 1658242629076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,11 @@\n     border-radius: 10px;\r\n     .positive {\r\n       margin-top: -15px;\r\n       margin-left: 8px;\r\n-      \r\n+      .ssl__card-hr {\r\n+        margin-top: 29px;\r\n+      }\r\n     }\r\n     &-number {\r\n       position: absolute;\r\n       top: -9px;\r\n"
+                },
+                {
+                    "date": 1658242731548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,11 +52,8 @@\n     border-radius: 10px;\r\n     .positive {\r\n       margin-top: -15px;\r\n       margin-left: 8px;\r\n-      .ssl__card-hr {\r\n-        margin-top: 29px;\r\n-      }\r\n     }\r\n     &-number {\r\n       position: absolute;\r\n       top: -9px;\r\n"
+                },
+                {
+                    "date": 1658242766108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,10 @@\n     grid-column: 1/3;\r\n   }\r\n   .positive {\r\n     grid-column: 4/6;\r\n+    margin-top: -15px;\r\n+    margin-left: 8px;\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n   }\r\n@@ -49,12 +51,8 @@\n     background: rgba(103, 168, 210, 0.1);\r\n     border: 1px solid rgba(103, 168, 210, 0.3);\r\n     box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);\r\n     border-radius: 10px;\r\n-    .positive {\r\n-      margin-top: -15px;\r\n-      margin-left: 8px;\r\n-    }\r\n     &-number {\r\n       position: absolute;\r\n       top: -9px;\r\n       left: 13px;\r\n"
+                },
+                {
+                    "date": 1658242829516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,8 @@\n     grid-column: 1/3;\r\n   }\r\n   .positive {\r\n     grid-column: 4/6;\r\n-    margin-top: -15px;\r\n-    margin-left: 8px;\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658243813195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .ssl {\r\n-  background: #F8F8F8;;\r\n+  background: #F8F8F8;\r\n   margin-top: 94px;\r\n   .container {\r\n     grid-template-rows: 72px 200px 580px 1fr;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658299212977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .ssl {\r\n   background: #F8F8F8;\r\n-  margin-top: 94px;\r\n+  padding-top: 94px;\r\n   .container {\r\n     grid-template-rows: 72px 200px 580px 1fr;\r\n   }\r\n   &__title {\r\n"
+                },
+                {
+                    "date": 1658299584025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n   .container {\r\n     grid-template-rows: 72px 200px 580px 1fr;\r\n   }\r\n   &__title {\r\n+    #ef5350\r\n     width: 1180px;\r\n     text-align: center;\r\n     font-weight: 400;\r\n     font-size: 48px;\r\n"
+                },
+                {
+                    "date": 1658299595954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   .container {\r\n     grid-template-rows: 72px 200px 580px 1fr;\r\n   }\r\n   &__title {\r\n-    #ef5350\r\n+    margin-top: -4px;\r\n     width: 1180px;\r\n     text-align: center;\r\n     font-weight: 400;\r\n     font-size: 48px;\r\n"
+                },
+                {
+                    "date": 1658299725269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,13 +84,13 @@\n       margin-top: 30px;\r\n       height: 224px;\r\n     }\r\n     &-item {\r\n+      margin-left: 25px;\r\n       font-size: 16px;\r\n       line-height: 24px;\r\n       font-weight: 400;\r\n       color: #3C3B3B;\r\n-      text-align: center;\r\n     }\r\n     &-price {\r\n       margin-top: 70px;\r\n       text-align: center;\r\n"
+                },
+                {
+                    "date": 1658299794880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,13 +84,15 @@\n       margin-top: 30px;\r\n       height: 224px;\r\n     }\r\n     &-item {\r\n-      margin-left: 25px;\r\n       font-size: 16px;\r\n       line-height: 24px;\r\n       font-weight: 400;\r\n       color: #3C3B3B;\r\n+      &_first {\r\n+        margin-left: 25px;\r\n+      }\r\n     }\r\n     &-price {\r\n       margin-top: 70px;\r\n       text-align: center;\r\n"
+                },
+                {
+                    "date": 1658299835173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,8 +91,11 @@\n       color: #3C3B3B;\r\n       &_first {\r\n         margin-left: 25px;\r\n       }\r\n+      &_second {\r\n+        margin-left: 10px;\r\n+      }\r\n     }\r\n     &-price {\r\n       margin-top: 70px;\r\n       text-align: center;\r\n"
+                },
+                {
+                    "date": 1658299864647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,9 @@\n       &_first {\r\n         margin-left: 25px;\r\n       }\r\n       &_second {\r\n-        margin-left: 10px;\r\n+        margin-left: 60px;\r\n       }\r\n     }\r\n     &-price {\r\n       margin-top: 70px;\r\n"
+                },
+                {
+                    "date": 1658299878643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,8 +94,11 @@\n       }\r\n       &_second {\r\n         margin-left: 60px;\r\n       }\r\n+      &_third {\r\n+        margin-left: 10px;\r\n+      }\r\n     }\r\n     &-price {\r\n       margin-top: 70px;\r\n       text-align: center;\r\n"
+                },
+                {
+                    "date": 1658299898643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,9 +95,9 @@\n       &_second {\r\n         margin-left: 60px;\r\n       }\r\n       &_third {\r\n-        margin-left: 10px;\r\n+        margin-left: 40px;\r\n       }\r\n     }\r\n     &-price {\r\n       margin-top: 70px;\r\n"
+                },
+                {
+                    "date": 1658299909362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -97,8 +97,11 @@\n       }\r\n       &_third {\r\n         margin-left: 40px;\r\n       }\r\n+      &_fourth {\r\n+        margin-left: 10px;\r\n+      }\r\n     }\r\n     &-price {\r\n       margin-top: 70px;\r\n       text-align: center;\r\n"
+                },
+                {
+                    "date": 1658299933803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n       &_third {\r\n         margin-left: 40px;\r\n       }\r\n       &_fourth {\r\n-        margin-left: 10px;\r\n+        margin-left: 42px;\r\n       }\r\n     }\r\n     &-price {\r\n       margin-top: 70px;\r\n"
+                },
+                {
+                    "date": 1658299944557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,8 +100,11 @@\n       }\r\n       &_fourth {\r\n         margin-left: 42px;\r\n       }\r\n+      &_fifth {\r\n+        margin-left: 10px;\r\n+      }\r\n     }\r\n     &-price {\r\n       margin-top: 70px;\r\n       text-align: center;\r\n"
+                },
+                {
+                    "date": 1658299979819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,8 +103,11 @@\n       }\r\n       &_fifth {\r\n         margin-left: 10px;\r\n       }\r\n+      &_sixth {\r\n+        margin-left: 10px;\r\n+      }\r\n     }\r\n     &-price {\r\n       margin-top: 70px;\r\n       text-align: center;\r\n"
+                },
+                {
+                    "date": 1658300003522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n       &_fifth {\r\n         margin-left: 10px;\r\n       }\r\n       &_sixth {\r\n-        margin-left: 10px;\r\n+        margin-left: 29px;\r\n       }\r\n     }\r\n     &-price {\r\n       margin-top: 70px;\r\n"
+                },
+                {
+                    "date": 1658300104845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,8 +115,9 @@\n       line-height: 36px;\r\n       font-weight: 600;\r\n       color: #1B567C;\r\n       .minitext {\r\n+        margin-left: 5px;\r\n         font-size: 16px;\r\n         line-height: 24px;\r\n         font-weight: 400;\r\n       }\r\n"
+                },
+                {
+                    "date": 1658300272744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,13 @@\n     grid-column: 1/3;\r\n   }\r\n   .positive {\r\n     grid-column: 4/6;\r\n+    .ssl__card-title {\r\n+      margin-top: 40px;\r\n+      margin-left: 49px;\r\n+      margin-right: 54px;\r\n+    }\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658300325079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,11 @@\n       margin-top: 40px;\r\n       margin-left: 49px;\r\n       margin-right: 54px;\r\n     }\r\n+    .ssl__card-hr {\r\n+      margin-top: 30px;\r\n+    }\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658300577417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,13 @@\n     }\r\n     .ssl__card-hr {\r\n       margin-top: 30px;\r\n     }\r\n+    .ssl__card-item{\r\n+      &_first {\r\n+        margin-left: 26px;\r\n+      }\r\n+    }\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658300647300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,8 +45,12 @@\n     .ssl__card-item{\r\n       &_first {\r\n         margin-left: 26px;\r\n       }\r\n+      &_second {\r\n+        margin-top: 13px;\r\n+        margin-left: 67px;\r\n+      }\r\n     }\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n"
+                },
+                {
+                    "date": 1658300729397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,8 +49,12 @@\n       &_second {\r\n         margin-top: 13px;\r\n         margin-left: 67px;\r\n       }\r\n+      &_third {\r\n+        margin-top: 19px;\r\n+        margin-left: 32px;\r\n+      }\r\n     }\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n"
+                },
+                {
+                    "date": 1658300746527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n       &_first {\r\n         margin-left: 26px;\r\n       }\r\n       &_second {\r\n-        margin-top: 13px;\r\n+        margin-top: 16px;\r\n         margin-left: 67px;\r\n       }\r\n       &_third {\r\n         margin-top: 19px;\r\n"
+                },
+                {
+                    "date": 1658300772168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n         margin-top: 16px;\r\n         margin-left: 67px;\r\n       }\r\n       &_third {\r\n-        margin-top: 19px;\r\n+        margin-top: 17px;\r\n         margin-left: 32px;\r\n       }\r\n     }\r\n   }\r\n"
+                },
+                {
+                    "date": 1658300816379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,8 +53,11 @@\n       &_third {\r\n         margin-top: 17px;\r\n         margin-left: 32px;\r\n       }\r\n+      &_fourth {\r\n+        margin-top: 14px;\r\n+      }\r\n     }\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n"
+                },
+                {
+                    "date": 1658300867024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,12 @@\n       }\r\n       &_fourth {\r\n         margin-top: 14px;\r\n       }\r\n+      &_fifth {\r\n+        margin-top: 16px;\r\n+        margin-left: 24px;\r\n+      }\r\n     }\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n"
+                },
+                {
+                    "date": 1658300926786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,8 +60,12 @@\n       &_fifth {\r\n         margin-top: 16px;\r\n         margin-left: 24px;\r\n       }\r\n+      &_sixth {\r\n+        margin-top: 16px;\r\n+        margin-left: 6px;\r\n+      }\r\n     }\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n"
+                },
+                {
+                    "date": 1658300981818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,8 +64,11 @@\n       &_sixth {\r\n         margin-top: 16px;\r\n         margin-left: 6px;\r\n       }\r\n+      &_seventh {\r\n+        margin-top: 17px;margin-left: 31px;\r\n+      }\r\n     }\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n"
+                },
+                {
+                    "date": 1658301040177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,11 +65,15 @@\n         margin-top: 16px;\r\n         margin-left: 6px;\r\n       }\r\n       &_seventh {\r\n-        margin-top: 17px;margin-left: 31px;\r\n+        margin-top: 17px;\r\n+        margin-left: 31px;\r\n       }\r\n     }\r\n+    .ssl__card-price {\r\n+      margin-left: 5px;\r\n+    }\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658301072097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,8 +71,11 @@\n       }\r\n     }\r\n     .ssl__card-price {\r\n       margin-left: 5px;\r\n+      .minitext {\r\n+        margin-left: 11px;\r\n+      }\r\n     }\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n"
+                },
+                {
+                    "date": 1658301120432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n         margin-left: 31px;\r\n       }\r\n     }\r\n     .ssl__card-price {\r\n-      margin-left: 5px;\r\n+      margin-left: 8px;\r\n       .minitext {\r\n         margin-left: 11px;\r\n       }\r\n     }\r\n"
+                },
+                {
+                    "date": 1658301265736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,8 +78,12 @@\n     }\r\n   }\r\n   .essential {\r\n     grid-column: 7/9;\r\n+    .ssl__card-title {\r\n+      margin-left: 8px;\r\n+      margin-right: 7px;\r\n+    }\r\n   }\r\n   .business {\r\n     grid-column: 10/12;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658303320514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,8 +82,9 @@\n     .ssl__card-title {\r\n       margin-left: 8px;\r\n       margin-right: 7px;\r\n     }\r\n+    .ssl__card\r\n   }\r\n   .business {\r\n     grid-column: 10/12;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658303335335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,9 +82,13 @@\n     .ssl__card-title {\r\n       margin-left: 8px;\r\n       margin-right: 7px;\r\n     }\r\n-    .ssl__card\r\n+    .ssl__card-item {\r\n+      &_first {\r\n+        \r\n+      }\r\n+    }\r\n   }\r\n   .business {\r\n     grid-column: 10/12;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658303343966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,9 +84,9 @@\n       margin-right: 7px;\r\n     }\r\n     .ssl__card-item {\r\n       &_first {\r\n-        \r\n+        margin-left: 26px;\r\n       }\r\n     }\r\n   }\r\n   .business {\r\n"
+                },
+                {
+                    "date": 1658303371538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,8 +86,11 @@\n     .ssl__card-item {\r\n       &_first {\r\n         margin-left: 26px;\r\n       }\r\n+      &_second {\r\n+        margin-left: 41px;\r\n+      }\r\n     }\r\n   }\r\n   .business {\r\n     grid-column: 10/12;\r\n"
+                },
+                {
+                    "date": 1658303396008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,8 +89,11 @@\n       }\r\n       &_second {\r\n         margin-left: 41px;\r\n       }\r\n+      &_third {\r\n+        margin-left: 43px;\r\n+      }\r\n     }\r\n   }\r\n   .business {\r\n     grid-column: 10/12;\r\n"
+                },
+                {
+                    "date": 1658303418672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,8 +92,11 @@\n       }\r\n       &_third {\r\n         margin-left: 43px;\r\n       }\r\n+      &_fourth {\r\n+        margin-left: 25px;\r\n+      }\r\n     }\r\n   }\r\n   .business {\r\n     grid-column: 10/12;\r\n"
+                },
+                {
+                    "date": 1658303445616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,8 +95,11 @@\n       }\r\n       &_fourth {\r\n         margin-left: 25px;\r\n       }\r\n+      &_fifth {\r\n+        margin-left: 6px;\r\n+      }\r\n     }\r\n   }\r\n   .business {\r\n     grid-column: 10/12;\r\n"
+                },
+                {
+                    "date": 1658303471799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,8 +98,11 @@\n       }\r\n       &_fifth {\r\n         margin-left: 6px;\r\n       }\r\n+      &_sixth {\r\n+        margin-left: 32px;\r\n+      }\r\n     }\r\n   }\r\n   .business {\r\n     grid-column: 10/12;\r\n"
+                },
+                {
+                    "date": 1658303541275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,8 +102,13 @@\n       &_sixth {\r\n         margin-left: 32px;\r\n       }\r\n     }\r\n+    .ssl__card-price {\r\n+      .minitext {\r\n+        \r\n+      }\r\n+    }\r\n   }\r\n   .business {\r\n     grid-column: 10/12;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658303611049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n       }\r\n     }\r\n     .ssl__card-price {\r\n       .minitext {\r\n-        \r\n+        margin-left: 9px;\r\n       }\r\n     }\r\n   }\r\n   .business {\r\n"
+                },
+                {
+                    "date": 1658305110320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,8 +110,13 @@\n     }\r\n   }\r\n   .business {\r\n     grid-column: 10/12;\r\n+    .ssl__card-title {\r\n+      margin-top: 56px;\r\n+      margin-left: 29px;\r\n+      margin-right: 31px;\r\n+    }\r\n   }\r\n   &__card {\r\n     position: relative;\r\n     padding-bottom: 30px;\r\n"
+                },
+                {
+                    "date": 1658305250616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,8 +115,13 @@\n       margin-top: 56px;\r\n       margin-left: 29px;\r\n       margin-right: 31px;\r\n     }\r\n+    .ssl__card-item {\r\n+      &_first {\r\n+        \r\n+      }\r\n+    }\r\n   }\r\n   &__card {\r\n     position: relative;\r\n     padding-bottom: 30px;\r\n"
+                },
+                {
+                    "date": 1658305255838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,9 +117,9 @@\n       margin-right: 31px;\r\n     }\r\n     .ssl__card-item {\r\n       &_first {\r\n-        \r\n+        margin-left: 28px;\r\n       }\r\n     }\r\n   }\r\n   &__card {\r\n"
+                },
+                {
+                    "date": 1658305313516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -119,8 +119,12 @@\n     .ssl__card-item {\r\n       &_first {\r\n         margin-left: 28px;\r\n       }\r\n+      &_second {\r\n+        margin-top: 10px;\r\n+        margin-left: 49px;\r\n+      }\r\n     }\r\n   }\r\n   &__card {\r\n     position: relative;\r\n"
+                },
+                {
+                    "date": 1658305372715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,8 +123,12 @@\n       &_second {\r\n         margin-top: 10px;\r\n         margin-left: 49px;\r\n       }\r\n+      &_third {\r\n+        margin-top: 21px;\r\n+        margin-left: 40px;\r\n+      }\r\n     }\r\n   }\r\n   &__card {\r\n     position: relative;\r\n"
+                },
+                {
+                    "date": 1658305452140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,8 +127,12 @@\n       &_third {\r\n         margin-top: 21px;\r\n         margin-left: 40px;\r\n       }\r\n+      &_fourth {\r\n+        margin-top: 12px;\r\n+        margin-left: 29px;\r\n+      }\r\n     }\r\n   }\r\n   &__card {\r\n     position: relative;\r\n"
+                },
+                {
+                    "date": 1658305512326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,8 +131,11 @@\n       &_fourth {\r\n         margin-top: 12px;\r\n         margin-left: 29px;\r\n       }\r\n+      &_fifth {\r\n+        \r\n+      }\r\n     }\r\n   }\r\n   &__card {\r\n     position: relative;\r\n"
+                },
+                {
+                    "date": 1658305526213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,10 @@\n         margin-top: 12px;\r\n         margin-left: 29px;\r\n       }\r\n       &_fifth {\r\n-        \r\n+        margin-top: 15px;\r\n+        margin-left: 70px;\r\n       }\r\n     }\r\n   }\r\n   &__card {\r\n"
+                },
+                {
+                    "date": 1658305591345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -135,8 +135,12 @@\n       &_fifth {\r\n         margin-top: 15px;\r\n         margin-left: 70px;\r\n       }\r\n+      &_sixth {\r\n+        margin-top: 16px;\r\n+        margin-left: 6px;\r\n+      }\r\n     }\r\n   }\r\n   &__card {\r\n     position: relative;\r\n"
+                },
+                {
+                    "date": 1658305657489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,8 +139,12 @@\n       &_sixth {\r\n         margin-top: 16px;\r\n         margin-left: 6px;\r\n       }\r\n+      &_seventh {\r\n+        margin-top: 16px;\r\n+        margin-left: 32px;\r\n+      }\r\n     }\r\n   }\r\n   &__card {\r\n     position: relative;\r\n"
+                },
+                {
+                    "date": 1658305689980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,9 +124,9 @@\n         margin-top: 10px;\r\n         margin-left: 49px;\r\n       }\r\n       &_third {\r\n-        margin-top: 21px;\r\n+        margin-top: 17px;\r\n         margin-left: 40px;\r\n       }\r\n       &_fourth {\r\n         margin-top: 12px;\r\n"
+                },
+                {
+                    "date": 1658305711868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -128,9 +128,9 @@\n         margin-top: 17px;\r\n         margin-left: 40px;\r\n       }\r\n       &_fourth {\r\n-        margin-top: 12px;\r\n+        margin-top: 15px;\r\n         margin-left: 29px;\r\n       }\r\n       &_fifth {\r\n         margin-top: 15px;\r\n"
+                },
+                {
+                    "date": 1658305784311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,8 +144,13 @@\n         margin-top: 16px;\r\n         margin-left: 32px;\r\n       }\r\n     }\r\n+    .ssl__card-price {\r\n+      .minitext {\r\n+        margin-left: 1px;\r\n+      }\r\n+    }\r\n   }\r\n   &__card {\r\n     position: relative;\r\n     padding-bottom: 30px;\r\n"
+                },
+                {
+                    "date": 1658305921231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,8 +235,8 @@\n   }\r\n   &__btn {\r\n     grid-column: 5;\r\n     grid-row: 4;\r\n-    margin-top: 81px;\r\n-    margin-left: 32px;\r\n+    margin-top: 76px;\r\n+    margin-left: 31px;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658311652421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .ssl {\r\n   background: #F8F8F8;\r\n   padding-top: 94px;\r\n+  padding-bottom: 94px;\r\n   .container {\r\n     grid-template-rows: 72px 200px 580px 1fr;\r\n   }\r\n   &__title {\r\n"
+                }
+            ],
+            "date": 1658214769900,
+            "name": "Commit-0",
+            "content": ".ssl {\r\n  margin-top: 40px;\r\n  .container {\r\n    grid-template-rows: 72px 200px 580px 1fr;\r\n  }\r\n  &__title {\r\n    grid-column: 1/12;\r\n    text-align: center;\r\n    font-weight: 400;\r\n    font-size: 48px;\r\n    line-height: 72px;\r\n    letter-spacing: 0.04em;\r\n    color: #3C3B3B;\r\n  }\r\n  &__descr {\r\n    grid-column: 1/8;\r\n    grid-row: 2;\r\n    margin-top: 57px;\r\n  }\r\n  .comodo {\r\n    grid-column: 1/3;\r\n  }\r\n  .positive {\r\n    grid-column: 4/6;\r\n  }\r\n  .essential {\r\n    grid-column: 7/9;\r\n  }\r\n  .business {\r\n    grid-column: 10/12;\r\n  }\r\n  &__card {\r\n    position: relative;\r\n    padding-bottom: 30px;\r\n    width: 280px;\r\n    height: 551px;\r\n    background: rgba(103, 168, 210, 0.1);\r\n    border: 1px solid rgba(103, 168, 210, 0.3);\r\n    box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);\r\n    border-radius: 10px;\r\n    &-number {\r\n      position: absolute;\r\n      top: 18px;\r\n      left: 13px;\r\n      font-size: 72px;\r\n      line-height: 108px;\r\n      font-weight: 600;\r\n      color: #67A8D2;\r\n      opacity: 0.5;\r\n    }\r\n    &-title {\r\n      margin-top: 56px;\r\n      margin-left: 41px;\r\n      margin-right: 48px;\r\n      font-size: 20px;\r\n      line-height: 30px;\r\n      font-weight: 600;\r\n      color: #1B567C;\r\n      text-align: center;\r\n      font-style: normal;\r\n    }\r\n    &-hr {\r\n      margin: 45px auto 0;\r\n      border: 0.5px solid #1B567C;\r\n      width: 180px;\r\n    }\r\n    &-list {\r\n      display: flex;\r\n      flex-direction: column;\r\n      justify-content: space-between;\r\n      margin-top: 30px;\r\n      height: 224px;\r\n    }\r\n    &-item {\r\n      font-size: 16px;\r\n      line-height: 24px;\r\n      font-weight: 400;\r\n      color: #3C3B3B;\r\n      text-align: center;\r\n    }\r\n    &-price {\r\n      margin-top: 60px;\r\n      text-align: center;\r\n      font-size: 24px;\r\n      line-height: 36px;\r\n      font-weight: 600;\r\n      color: #1B567C;\r\n      .minitext {\r\n        font-size: 16px;\r\n        line-height: 24px;\r\n        font-weight: 400;\r\n      }\r\n    }\r\n\r\n  }\r\n\r\n  &__btn {\r\n    grid-column: 1/12;\r\n    grid-row: 4;\r\n    margin-top: 60px;\r\n  }\r\n}"
+        }
+    ]
+}

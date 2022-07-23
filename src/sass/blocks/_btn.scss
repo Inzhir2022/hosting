@@ -1,0 +1,31 @@
+.btn {
+  width: 232px;
+  height: 44px;
+  background-color: $color-blue;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: $color-white;
+  font-size: $font-size-btn2;
+  line-height: $line-height-btn2;
+  letter-spacing: $letter-spacing-btns;
+  font-weight: $font-weight-medium;
+  border: none;
+  cursor: pointer;
+  &_medium {
+    width: 319px;
+    background-color: $color-orange;
+  }
+  &_long {
+    width: 419px;
+    box-shadow: 0px 4px 4px rgba(46, 46, 46, 0.27);
+    background-color: $color-orange;
+  }
+  &_small {
+    width: 88px;
+    height: 31px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: $font-weight-regular;
+    letter-spacing: normal;
+  }
+}

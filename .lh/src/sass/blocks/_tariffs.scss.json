@@ -1,0 +1,230 @@
+{
+    "sourceFile": "src/sass/blocks/_tariffs.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 53,
+            "patches": [
+                {
+                    "date": 1657986190451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1657986252301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,7 @@\n .tariffs {\r\n   margin-top: 94px;\r\n+  .container {\r\n+    grid-template-columns: repeat(12, 80px);\r\n+    column-gap: 20px;;\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657986722409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,8 @@\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;;\r\n   }\r\n+  &__text {\r\n+    \r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657986733987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;;\r\n   }\r\n   &__text {\r\n-    \r\n+    margin-top: 57px;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657986802675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n .tariffs {\r\n   margin-top: 94px;\r\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n-    column-gap: 20px;;\r\n+    column-gap: 20px;\r\n+    grid-template-rows: ;\r\n   }\r\n   &__text {\r\n     margin-top: 57px;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657986814870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   margin-top: 94px;\r\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;\r\n-    grid-template-rows: ;\r\n+    grid-template-rows: 72px ;\r\n   }\r\n   &__text {\r\n     margin-top: 57px;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657986848920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n     column-gap: 20px;\r\n     grid-template-rows: 72px ;\r\n   }\r\n   &__text {\r\n-    margin-top: 57px;\r\n+    margin-top: 57px 140px 1fr 1fr 1fr;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657986921498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n   margin-top: 94px;\r\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;\r\n-    grid-template-rows: 72px ;\r\n+    grid-template-rows: 72px 140px 1fr 1fr 1fr;\r\n   }\r\n   &__text {\r\n-    margin-top: 57px 140px 1fr 1fr 1fr;\r\n+    margin-top: 57px;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657987024523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,9 @@\n   }\r\n   &__text {\r\n     margin-top: 57px;\r\n   }\r\n+  &__title {\r\n+    font-size: $font-size-h2;\r\n+    line-height: $line-height-h2;\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657987179743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,11 @@\n   &__text {\r\n     margin-top: 57px;\r\n   }\r\n   &__title {\r\n+    grid-column: 1/12;\r\n+    grid-row: 1;\r\n     font-size: $font-size-h2;\r\n     line-height: $line-height-h2;\r\n+    font-weight: $font-weight-regular;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657987217532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,7 @@\n     grid-row: 1;\r\n     font-size: $font-size-h2;\r\n     line-height: $line-height-h2;\r\n     font-weight: $font-weight-regular;\r\n+    text-align: center;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657987293950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n     column-gap: 20px;\r\n     grid-template-rows: 72px 140px 1fr 1fr 1fr;\r\n   }\r\n   &__text {\r\n+    grid-column: 1/7;\r\n     margin-top: 57px;\r\n   }\r\n   &__title {\r\n     grid-column: 1/12;\r\n"
+                },
+                {
+                    "date": 1657987321129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,10 @@\n   }\r\n   &__text {\r\n     grid-column: 1/7;\r\n     margin-top: 57px;\r\n+    font-size: 20px;\r\n+    line-height: 30px;\r\n   }\r\n   &__title {\r\n     grid-column: 1/12;\r\n     grid-row: 1;\r\n"
+                },
+                {
+                    "date": 1657987378668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     column-gap: 20px;\r\n     grid-template-rows: 72px 140px 1fr 1fr 1fr;\r\n   }\r\n   &__text {\r\n-    grid-column: 1/7;\r\n+    grid-column: 1/8;\r\n     margin-top: 57px;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657987412813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n     grid-column: 1/8;\r\n     margin-top: 57px;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n+    font-weight: 400;\r\n   }\r\n   &__title {\r\n     grid-column: 1/12;\r\n     grid-row: 1;\r\n"
+                },
+                {
+                    "date": 1657987466806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,11 @@\n     margin-top: 57px;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n     font-weight: 400;\r\n+    &_bold {\r\n+      font-weight: $font-weight-semibold;\r\n+    }\r\n   }\r\n   &__title {\r\n     grid-column: 1/12;\r\n     grid-row: 1;\r\n"
+                },
+                {
+                    "date": 1657987783332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,11 @@\n     margin-top: 57px;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n     font-weight: 400;\r\n+    p {\r\n+      margin-bottom: 40px;\r\n+    }\r\n     &_bold {\r\n       font-weight: $font-weight-semibold;\r\n     }\r\n   }\r\n"
+                },
+                {
+                    "date": 1657989460119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,5 +25,8 @@\n     line-height: $line-height-h2;\r\n     font-weight: $font-weight-regular;\r\n     text-align: center;\r\n   }\r\n+  &__cards {\r\n+    margin-top: 14px;\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657989663924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,6 +27,7 @@\n     text-align: center;\r\n   }\r\n   &__cards {\r\n     margin-top: 14px;\r\n+    text-align: center;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657989699189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,9 @@\n     font-weight: $font-weight-regular;\r\n     text-align: center;\r\n   }\r\n   &__cards {\r\n+    grid-column: 1/3;\r\n     margin-top: 14px;\r\n     text-align: center;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657990075832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   margin-top: 94px;\r\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;\r\n-    grid-template-rows: 72px 140px 1fr 1fr 1fr;\r\n+    grid-template-rows: 72px 140px 204px 1fr 1fr;\r\n   }\r\n   &__text {\r\n     grid-column: 1/8;\r\n     margin-top: 57px;\r\n"
+                },
+                {
+                    "date": 1657990138033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   margin-top: 94px;\r\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;\r\n-    grid-template-rows: 72px 140px 204px 1fr 1fr;\r\n+    grid-template-rows: 72px 140px 204px 30px 1fr 1fr;\r\n   }\r\n   &__text {\r\n     grid-column: 1/8;\r\n     margin-top: 57px;\r\n"
+                },
+                {
+                    "date": 1657990396334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,5 +30,11 @@\n     grid-column: 1/3;\r\n     margin-top: 14px;\r\n     text-align: center;\r\n   }\r\n+  .cards-block {\r\n+    &__descr {\r\n+      grid-column: 1/12;\r\n+      grid-row: 4;\r\n+    }\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657990424653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,7 +34,9 @@\n   .cards-block {\r\n     &__descr {\r\n       grid-column: 1/12;\r\n       grid-row: 4;\r\n+      font-weight: 400;\r\n+      font-size: 20px;\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657990433754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,7 +36,8 @@\n       grid-column: 1/12;\r\n       grid-row: 4;\r\n       font-weight: 400;\r\n       font-size: 20px;\r\n+      color: #3C3B3B;\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657990449853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,9 @@\n       grid-column: 1/12;\r\n       grid-row: 4;\r\n       font-weight: 400;\r\n       font-size: 20px;\r\n+      line-height: 30px;\r\n       color: #3C3B3B;\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657990468471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,7 +38,8 @@\n       font-weight: 400;\r\n       font-size: 20px;\r\n       line-height: 30px;\r\n       color: #3C3B3B;\r\n+      text-align: center;\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657991002730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   margin-top: 94px;\r\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;\r\n-    grid-template-rows: 72px 140px 204px 30px 1fr 1fr;\r\n+    grid-template-rows: 72px 140px 204px 50px 1fr 1fr;\r\n   }\r\n   &__text {\r\n     grid-column: 1/8;\r\n     margin-top: 57px;\r\n"
+                },
+                {
+                    "date": 1657991369891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,5 +41,9 @@\n       color: #3C3B3B;\r\n       text-align: center;\r\n     }\r\n   }\r\n-}\n\\ No newline at end of file\n+  &__link-more {\r\n+    grid-column: 1/12;\r\n+    text-align: center;\r\n+}\r\n+  }\r\n"
+                },
+                {
+                    "date": 1657991539129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,9 @@\n   .cards-block {\r\n     &__descr {\r\n       grid-column: 1/12;\r\n       grid-row: 4;\r\n+      align-self:center;\r\n       font-weight: 400;\r\n       font-size: 20px;\r\n       line-height: 30px;\r\n       color: #3C3B3B;\r\n"
+                },
+                {
+                    "date": 1657991725602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,7 +44,8 @@\n     }\r\n   }\r\n   &__link-more {\r\n     grid-column: 1/12;\r\n+    grid-row: 6;\r\n     text-align: center;\r\n }\r\n   }\r\n"
+                },
+                {
+                    "date": 1657991782573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   margin-top: 94px;\r\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;\r\n-    grid-template-rows: 72px 140px 204px 50px 1fr 1fr;\r\n+    grid-template-rows: 72px 140px 204px 50px 488px 1fr;\r\n   }\r\n   &__text {\r\n     grid-column: 1/8;\r\n     margin-top: 57px;\r\n"
+                },
+                {
+                    "date": 1657991840205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   margin-top: 94px;\r\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;\r\n-    grid-template-rows: 72px 140px 204px 50px 488px 1fr;\r\n+    grid-template-rows: 72px 140px 204px 50px 488px 59px;\r\n   }\r\n   &__text {\r\n     grid-column: 1/8;\r\n     margin-top: 57px;\r\n"
+                },
+                {
+                    "date": 1657991886481,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,9 @@\n       text-align: center;\r\n     }\r\n   }\r\n   &__link-more {\r\n+    margin-top: 35px;\r\n     grid-column: 1/12;\r\n     grid-row: 6;\r\n     text-align: center;\r\n }\r\n"
+                },
+                {
+                    "date": 1657991912814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,7 +46,8 @@\n   &__link-more {\r\n     margin-top: 35px;\r\n     grid-column: 1/12;\r\n     grid-row: 6;\r\n+    font-size: 16px;\r\n     text-align: center;\r\n }\r\n   }\r\n"
+                },
+                {
+                    "date": 1657991924729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,7 +47,8 @@\n     margin-top: 35px;\r\n     grid-column: 1/12;\r\n     grid-row: 6;\r\n     font-size: 16px;\r\n+    height: 24px;\r\n     text-align: center;\r\n }\r\n   }\r\n"
+                },
+                {
+                    "date": 1657991942616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,7 +48,8 @@\n     grid-column: 1/12;\r\n     grid-row: 6;\r\n     font-size: 16px;\r\n     height: 24px;\r\n+    color: #FA6232;\r\n     text-align: center;\r\n }\r\n   }\r\n"
+                },
+                {
+                    "date": 1657992003278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,6 +50,9 @@\n     font-size: 16px;\r\n     height: 24px;\r\n     color: #FA6232;\r\n     text-align: center;\r\n+    &:hover, &:visited {\r\n+      color: #FA6232;\r\n+    }\r\n }\r\n   }\r\n"
+                },
+                {
+                    "date": 1657992030303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,9 @@\n     font-size: 16px;\r\n     height: 24px;\r\n     color: #FA6232;\r\n     text-align: center;\r\n+    font-style: italic;\r\n     &:hover, &:visited {\r\n       color: #FA6232;\r\n     }\r\n }\r\n"
+                },
+                {
+                    "date": 1657992098543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     height: 24px;\r\n     color: #FA6232;\r\n     text-align: center;\r\n     font-style: italic;\r\n-    &:hover, &:visited {\r\n+    &:hover, &:visited, &:active, &:link {\r\n       color: #FA6232;\r\n     }\r\n }\r\n   }\r\n"
+                },
+                {
+                    "date": 1657992188817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,12 +48,12 @@\n     grid-column: 1/12;\r\n     grid-row: 6;\r\n     font-size: 16px;\r\n     height: 24px;\r\n-    color: #FA6232;\r\n+    color: $color-orange;\r\n     text-align: center;\r\n     font-style: italic;\r\n     &:hover, &:visited, &:active, &:link {\r\n-      color: #FA6232;\r\n+      color: $color-orange;\r\n     }\r\n }\r\n   }\r\n"
+                },
+                {
+                    "date": 1657992279555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,12 +48,15 @@\n     grid-column: 1/12;\r\n     grid-row: 6;\r\n     font-size: 16px;\r\n     height: 24px;\r\n-    color: $color-orange;\r\n+    \r\n     text-align: center;\r\n     font-style: italic;\r\n-    &:hover, &:visited, &:active, &:link {\r\n+    a {\r\n       color: $color-orange;\r\n+      &:hover, &:visited, &:active, &:link {\r\n+        color: $color-orange;\r\n+      }\r\n     }\r\n+  }\r\n }\r\n-  }\r\n"
+                },
+                {
+                    "date": 1657992469732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   margin-top: 94px;\r\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;\r\n-    grid-template-rows: 72px 140px 204px 50px 488px 59px;\r\n+    grid-template-rows: 72px 197px 204px 50px 488px 59px;\r\n   }\r\n   &__text {\r\n     grid-column: 1/8;\r\n     margin-top: 57px;\r\n"
+                },
+                {
+                    "date": 1658209691466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,20 @@\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;\r\n     grid-template-rows: 72px 197px 204px 50px 488px 59px;\r\n   }\r\n+  .mini {\r\n+    grid-column: 1/3;\r\n+  }\r\n+  .start {\r\n+    grid-column: 4/6;\r\n+  }\r\n+  .standart {\r\n+    grid-column: 7/9;\r\n+  }\r\n+  .business {\r\n+    grid-column: 10/12;\r\n+  }\r\n   &__text {\r\n     grid-column: 1/8;\r\n     margin-top: 57px;\r\n     font-size: 20px;\r\n@@ -18,39 +30,24 @@\n       font-weight: $font-weight-semibold;\r\n     }\r\n   }\r\n   &__title {\r\n-    grid-column: 1/12;\r\n     grid-row: 1;\r\n+    width: 1180px;\r\n     font-size: $font-size-h2;\r\n     line-height: $line-height-h2;\r\n     font-weight: $font-weight-regular;\r\n     text-align: center;\r\n   }\r\n-  &__cards {\r\n-    grid-column: 1/3;\r\n-    margin-top: 14px;\r\n-    text-align: center;\r\n+  &__card {\r\n+    grid-row: 3;\r\n   }\r\n-  .cards-block {\r\n-    &__descr {\r\n-      grid-column: 1/12;\r\n-      grid-row: 4;\r\n-      align-self:center;\r\n-      font-weight: 400;\r\n-      font-size: 20px;\r\n-      line-height: 30px;\r\n-      color: #3C3B3B;\r\n-      text-align: center;\r\n-    }\r\n-  }\r\n   &__link-more {\r\n     margin-top: 35px;\r\n     grid-column: 1/12;\r\n     grid-row: 6;\r\n     font-size: 16px;\r\n     height: 24px;\r\n-    \r\n     text-align: center;\r\n     font-style: italic;\r\n     a {\r\n       color: $color-orange;\r\n@@ -58,5 +55,8 @@\n         color: $color-orange;\r\n       }\r\n     }\r\n   }\r\n+  .card.tariffs__card.mini .card__footer {\r\n+    margin-top: 108px;\r\n+  }\r\n }\r\n"
+                },
+                {
+                    "date": 1658209748583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,9 @@\n     }\r\n   }\r\n   &__title {\r\n     grid-row: 1;\r\n+    letter-spacing: 0.04em;\r\n     width: 1180px;\r\n     font-size: $font-size-h2;\r\n     line-height: $line-height-h2;\r\n     font-weight: $font-weight-regular;\r\n"
+                },
+                {
+                    "date": 1658209821527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     font-size: 20px;\r\n     line-height: 30px;\r\n     font-weight: 400;\r\n     p {\r\n-      margin-bottom: 40px;\r\n+      margin-bottom: 22px;\r\n     }\r\n     &_bold {\r\n       font-weight: $font-weight-semibold;\r\n     }\r\n"
+                },
+                {
+                    "date": 1658212284647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,8 +45,10 @@\n   &__link-more {\r\n     margin-top: 35px;\r\n     grid-column: 1/12;\r\n     grid-row: 6;\r\n+    margin-top: 43px;\r\n+    margin-left: 100px;\r\n     font-size: 16px;\r\n     height: 24px;\r\n     text-align: center;\r\n     font-style: italic;\r\n"
+                },
+                {
+                    "date": 1658219332447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,8 +58,5 @@\n         color: $color-orange;\r\n       }\r\n     }\r\n   }\r\n-  .card.tariffs__card.mini .card__footer {\r\n-    margin-top: 108px;\r\n-  }\r\n }\r\n"
+                },
+                {
+                    "date": 1658219959947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .tariffs {\r\n   margin-top: 94px;\r\n+  \r\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;\r\n     grid-template-rows: 72px 197px 204px 50px 488px 59px;\r\n"
+                },
+                {
+                    "date": 1658219973154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .tariffs {\r\n   margin-top: 94px;\r\n-  \r\n+  background: #F8F8F8;\r\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;\r\n     grid-template-rows: 72px 197px 204px 50px 488px 59px;\r\n"
+                },
+                {
+                    "date": 1658221178275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .tariffs {\r\n-  margin-top: 94px;\r\n+  padding-top: 94px;\r\n   background: #F8F8F8;\r\n   .container {\r\n     grid-template-columns: repeat(12, 80px);\r\n     column-gap: 20px;\r\n"
+                },
+                {
+                    "date": 1658221278670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,8 +54,9 @@\n     text-align: center;\r\n     font-style: italic;\r\n     a {\r\n       color: $color-orange;\r\n+      text-decoration: underline;\r\n       &:hover, &:visited, &:active, &:link {\r\n         color: $color-orange;\r\n       }\r\n     }\r\n"
+                },
+                {
+                    "date": 1658233235982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,9 @@\n     text-align: center;\r\n   }\r\n   &__card {\r\n     grid-row: 3;\r\n+    width: 280px;\r\n   }\r\n   &__link-more {\r\n     margin-top: 35px;\r\n     grid-column: 1/12;\r\n"
+                },
+                {
+                    "date": 1658238834351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,13 @@\n     grid-template-rows: 72px 197px 204px 50px 488px 59px;\r\n   }\r\n   .mini {\r\n     grid-column: 1/3;\r\n+    .new-price {\r\n+      &__title {\r\n+        margin-left: 35px;\r\n+      }\r\n+    }\r\n   }\r\n   .start {\r\n     grid-column: 4/6;\r\n   }\r\n"
+                }
+            ],
+            "date": 1657986190451,
+            "name": "Commit-0",
+            "content": ".tariffs {\r\n  margin-top: 94px;\r\n}"
+        }
+    ]
+}

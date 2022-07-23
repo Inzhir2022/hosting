@@ -1,0 +1,186 @@
+{
+    "sourceFile": "src/sass/blocks/_cms.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 42,
+            "patches": [
+                {
+                    "date": 1658214098507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1658214328933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,10 @@\n   }\r\n   &__descr {\r\n     grid-column: 1/8;\r\n     grid-row: 2;\r\n-    margin-top: 57px;\r\n+    margin-top: 66px;\r\n+    width: 720px;\r\n     font-weight: 400;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n     color: #3C3B3B;\r\n"
+                },
+                {
+                    "date": 1658220164673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .cms {\r\n+  background: rgb(103,168,210, 0.2);\r\n   margin-top: 89px;\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n   .container {\r\n"
+                },
+                {
+                    "date": 1658220529445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .cms {\r\n-  background: rgb(103,168,210, 0.2);\r\n+  background: rgb(103,168,210, 0.2) #d5e7f2;\r\n   margin-top: 89px;\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n   .container {\r\n"
+                },
+                {
+                    "date": 1658221433882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n .cms {\r\n   background: rgb(103,168,210, 0.2) #d5e7f2;\r\n-  margin-top: 89px;\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n"
+                },
+                {
+                    "date": 1658221459498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .cms {\r\n-  background: rgb(103,168,210, 0.2) #d5e7f2;\r\n+  background: rgb(103,168,210, 0.2);\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n"
+                },
+                {
+                    "date": 1658221912226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .cms {\r\n-  background: rgb(103,168,210, 0.2);\r\n+  background: rgb(103,168,210, 0.2) #d5e7f2;\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n"
+                },
+                {
+                    "date": 1658221955819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .cms {\r\n-  background: rgb(103,168,210, 0.2) #d5e7f2;\r\n+  background:center left rgb(103,168,210, 0.2) center right#d5e7f2;\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n"
+                },
+                {
+                    "date": 1658222027150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .cms {\r\n-  background:center left rgb(103,168,210, 0.2) center right#d5e7f2;\r\n+  background:center left rgb(103,168,210, 0.2);\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n"
+                },
+                {
+                    "date": 1658222332400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .cms {\r\n-  background:center left rgb(103,168,210, 0.2);\r\n+  background:;\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n"
+                },
+                {
+                    "date": 1658222351544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .cms {\r\n-  background:;\r\n+  background:rgba(103, 168, 210, 0.2);\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n"
+                },
+                {
+                    "date": 1658222400062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n .cms {\r\n-  background:rgba(103, 168, 210, 0.2);\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n"
+                },
+                {
+                    "date": 1658222420227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .cms {\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n+  background: rgba(103, 168, 210, 1);\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n   }\r\n   &__title {\r\n"
+                },
+                {
+                    "date": 1658222438959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .cms {\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n-  background: rgba(103, 168, 210, 1);\r\n+  background: rgba(103, 168, 210, 0.2);\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n   }\r\n   &__title {\r\n"
+                },
+                {
+                    "date": 1658222639743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .cms {\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n-  background: rgba(103, 168, 210, 0.2);\r\n+  background: rgba(103, 168, 210, 0.2), rgba(103, 168, 210, 1);\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n   }\r\n   &__title {\r\n"
+                },
+                {
+                    "date": 1658222727427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .cms {\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n-  background: rgba(103, 168, 210, 0.2), rgba(103, 168, 210, 1);\r\n+  background: rgba(103, 168, 210, 0.2) left center, rgba(103, 168, 210, 1) center right;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n   }\r\n   &__title {\r\n"
+                },
+                {
+                    "date": 1658223014357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n .cms {\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n-  background: rgba(103, 168, 210, 0.2) left center, rgba(103, 168, 210, 1) center right;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n   }\r\n   &__title {\r\n"
+                },
+                {
+                    "date": 1658239085760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,11 @@\n     font-weight: 400;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n     color: #3C3B3B;\r\n+    &_bold {\r\n+      \r\n+    }\r\n   }\r\n   .row {\r\n     display: flex;\r\n     justify-content: space-between;\r\n"
+                },
+                {
+                    "date": 1658239096950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     font-size: 20px;\r\n     line-height: 30px;\r\n     color: #3C3B3B;\r\n     &_bold {\r\n-      \r\n+      font-weight: 600;\r\n     }\r\n   }\r\n   .row {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1658239301185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n   }\r\n   &__descr {\r\n     grid-column: 1/8;\r\n     grid-row: 2;\r\n-    margin-top: 66px;\r\n+    margin-top: 62px;\r\n     width: 720px;\r\n     font-weight: 400;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n"
+                },
+                {
+                    "date": 1658239382780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n   }\r\n   .row {\r\n     display: flex;\r\n     justify-content: space-between;\r\n+    width: 1180px;\r\n     &_first {\r\n       margin-top: 73px;\r\n       grid-row: 3;\r\n       grid-column: 1/12;\r\n"
+                },
+                {
+                    "date": 1658239546905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n     display: flex;\r\n     justify-content: space-between;\r\n     width: 1180px;\r\n     &_first {\r\n-      margin-top: 73px;\r\n+      margin-top: 79px;\r\n       grid-row: 3;\r\n       grid-column: 1/12;\r\n     }\r\n     &_second {\r\n"
+                },
+                {
+                    "date": 1658239582669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n     display: flex;\r\n     justify-content: space-between;\r\n     width: 1180px;\r\n     &_first {\r\n-      margin-top: 79px;\r\n+      margin-top: 78px;\r\n       grid-row: 3;\r\n       grid-column: 1/12;\r\n     }\r\n     &_second {\r\n"
+                },
+                {
+                    "date": 1658239700556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n     }\r\n     &_second {\r\n       grid-row: 4;\r\n       grid-column: 1/12;\r\n-      align-self: end;\r\n+      margin-top: 62px;\r\n     }\r\n     &_third {\r\n       grid-row: 5;\r\n       grid-column: 1/12;\r\n"
+                },
+                {
+                    "date": 1658240182851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,8 @@\n     }\r\n     &_third {\r\n       grid-row: 5;\r\n       grid-column: 1/12;\r\n-      align-self: center;\r\n+      align-items: flex-end;\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658240393951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,7 +44,10 @@\n     &_third {\r\n       grid-row: 5;\r\n       grid-column: 1/12;\r\n       align-items: flex-end;\r\n+      .shopScript {\r\n+        margin-left: 118px;\r\n+      }\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658240508195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,8 +45,9 @@\n       grid-row: 5;\r\n       grid-column: 1/12;\r\n       align-items: flex-end;\r\n       .shopScript {\r\n+        margin-top: 50px;\r\n         margin-left: 118px;\r\n       }\r\n     }\r\n   }\r\n"
+                },
+                {
+                    "date": 1658240595132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,7 +48,11 @@\n       .shopScript {\r\n         margin-top: 50px;\r\n         margin-left: 118px;\r\n       }\r\n+      .dle {\r\n+        margin-left: -58px;\r\n+        margin-bottom: 7px;\r\n+      }\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658240731662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,7 +52,12 @@\n       .dle {\r\n         margin-left: -58px;\r\n         margin-bottom: 7px;\r\n       }\r\n+      .hostCMS {\r\n+        margin-left: -167px;\r\n+        margin-bottom: 15px;\r\n+}\r\n+      }\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658240741739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,8 @@\n       }\r\n       .hostCMS {\r\n         margin-left: -167px;\r\n         margin-bottom: 15px;\r\n-}\r\n       }\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658240881601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,7 +56,11 @@\n       .hostCMS {\r\n         margin-left: -167px;\r\n         margin-bottom: 15px;\r\n       }\r\n+      .prestaShop {\r\n+        margin-right: 111px;\r\n+        margin-bottom: 9px;\r\n+      }\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658240949494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,10 +53,10 @@\n         margin-left: -58px;\r\n         margin-bottom: 7px;\r\n       }\r\n       .hostCMS {\r\n-        margin-left: -167px;\r\n-        margin-bottom: 15px;\r\n+        margin-left: 51px;\r\n+        margin-bottom: 14px;\r\n       }\r\n       .prestaShop {\r\n         margin-right: 111px;\r\n         margin-bottom: 9px;\r\n"
+                },
+                {
+                    "date": 1658240992452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n         margin-top: 50px;\r\n         margin-left: 118px;\r\n       }\r\n       .dle {\r\n-        margin-left: -58px;\r\n+        margin-left: 24px;\r\n         margin-bottom: 7px;\r\n       }\r\n       .hostCMS {\r\n         margin-left: 51px;\r\n"
+                },
+                {
+                    "date": 1658241058365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n         margin-top: 50px;\r\n         margin-left: 118px;\r\n       }\r\n       .dle {\r\n-        margin-left: 24px;\r\n+        margin-left: -9px;\r\n         margin-bottom: 7px;\r\n       }\r\n       .hostCMS {\r\n         margin-left: 51px;\r\n"
+                },
+                {
+                    "date": 1658241149669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,12 +51,14 @@\n       }\r\n       .dle {\r\n         margin-left: -9px;\r\n         margin-bottom: 7px;\r\n+        width: 170px;\r\n       }\r\n       .hostCMS {\r\n         margin-left: 51px;\r\n         margin-bottom: 14px;\r\n+        width: 169px;\r\n       }\r\n       .prestaShop {\r\n         margin-right: 111px;\r\n         margin-bottom: 9px;\r\n"
+                },
+                {
+                    "date": 1658241198174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n         margin-top: 50px;\r\n         margin-left: 118px;\r\n       }\r\n       .dle {\r\n-        margin-left: -9px;\r\n+        margin-left: 22px;\r\n         margin-bottom: 7px;\r\n         width: 170px;\r\n       }\r\n       .hostCMS {\r\n"
+                },
+                {
+                    "date": 1658241302038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,12 +54,13 @@\n         margin-bottom: 7px;\r\n         width: 170px;\r\n       }\r\n       .hostCMS {\r\n-        margin-left: 51px;\r\n+        margin-left: 28px;\r\n         margin-bottom: 14px;\r\n-        width: 169px;\r\n+        width: 189px;\r\n       }\r\n+    }\r\n       .prestaShop {\r\n         margin-right: 111px;\r\n         margin-bottom: 9px;\r\n       }\r\n"
+                },
+                {
+                    "date": 1658241307185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,8 @@\n         margin-left: 28px;\r\n         margin-bottom: 14px;\r\n         width: 189px;\r\n       }\r\n-    }\r\n       .prestaShop {\r\n         margin-right: 111px;\r\n         margin-bottom: 9px;\r\n       }\r\n"
+                },
+                {
+                    "date": 1658241419698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .cms {\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n+  background: ;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n   }\r\n   &__title {\r\n"
+                },
+                {
+                    "date": 1658241499274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .cms {\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n-  background: ;\r\n+  background: rgba(103, 168, 210, 0.2) no-repeat url('../../img/cms/cms_bg.svg');\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n   }\r\n   &__title {\r\n"
+                },
+                {
+                    "date": 1658243835989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .cms {\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n-  background: rgba(103, 168, 210, 0.2) no-repeat url('../../img/cms/cms_bg.svg');\r\n+  background: rgba(103, 168, 210, 0.2) no-repeat url('../../img/cms/cms_bg.svg')left bottom;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n   }\r\n   &__title {\r\n"
+                },
+                {
+                    "date": 1658298820620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .cms {\r\n   padding-top: 48px;\r\n   padding-bottom: 86px;\r\n-  background: rgba(103, 168, 210, 0.2) no-repeat url('../../img/cms/cms_bg.svg')left bottom;\r\n+  background: rgba(103, 168, 210, 0.2) no-repeat url('../../img/cms/cms_bg.svg')right bottom;\r\n   .container {\r\n     grid-template-rows: 72px 117px 122px 115px 115px;\r\n   }\r\n   &__title {\r\n"
+                },
+                {
+                    "date": 1658299325466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   }\r\n   &__title {\r\n     width: 1180px;\r\n     letter-spacing: 0.04em;\r\n-    margin-top: 9px;\r\n+    margin-top: 5px;\r\n     grid-row: 1;\r\n     font-weight: 400;\r\n     font-size: 48px;\r\n     line-height: 72px;\r\n"
+                }
+            ],
+            "date": 1658214098507,
+            "name": "Commit-0",
+            "content": ".cms {\r\n  margin-top: 89px;\r\n  padding-top: 48px;\r\n  padding-bottom: 86px;\r\n  .container {\r\n    grid-template-rows: 72px 117px 122px 115px 115px;\r\n  }\r\n  &__title {\r\n    width: 1180px;\r\n    letter-spacing: 0.04em;\r\n    margin-top: 9px;\r\n    grid-row: 1;\r\n    font-weight: 400;\r\n    font-size: 48px;\r\n    line-height: 72px;\r\n    text-align: center;\r\n  }\r\n  &__descr {\r\n    grid-column: 1/8;\r\n    grid-row: 2;\r\n    margin-top: 57px;\r\n    font-weight: 400;\r\n    font-size: 20px;\r\n    line-height: 30px;\r\n    color: #3C3B3B;\r\n  }\r\n  .row {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    &_first {\r\n      margin-top: 73px;\r\n      grid-row: 3;\r\n      grid-column: 1/12;\r\n    }\r\n    &_second {\r\n      grid-row: 4;\r\n      grid-column: 1/12;\r\n      align-self: end;\r\n    }\r\n    &_third {\r\n      grid-row: 5;\r\n      grid-column: 1/12;\r\n      align-self: center;\r\n    }\r\n  }\r\n}"
+        }
+    ]
+}

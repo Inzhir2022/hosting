@@ -1,0 +1,98 @@
+.promo {
+  position: relative;
+  background: linear-gradient(91.05deg, #5994BA 14.15%, #ADCCE0 99%);
+  .container {
+    grid-template-rows: 198px 165px 130px;
+  }
+  &__title {
+    grid-column: 1/8;
+    margin-top: 54px;
+    font-size: $font-size-h1;
+    line-height: 72px;
+    color: $color-white;
+    font-weight: $font-weight-medium;
+    letter-spacing: $letter-spacing-h1;
+    text-shadow: 3px 1px 0px #3E708F;
+  }
+  &__description {
+    grid-column: 1/7;
+    grid-row: 2;
+    margin-top: 23px;
+    color: $color-white;
+    z-index: 2;
+}
+  &__maintext {
+    margin-top: 11px;
+    font-size: $font-size-main-text;
+    line-height: $line-height-main-text;
+    font-weight: $font-weight-regular;
+    &_bold {
+      font-weight: $font-weight-semibold;
+  }
+  }
+  &__wrapper {
+    position: absolute;
+    left: 0;
+    bottom: 64px;
+    text-align: end;
+    z-index: 2;
+  }
+  &__label {
+    color:$color-white;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: #1B567C;
+    width: 402px;
+    height: 46px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    img {
+      position: absolute;
+      bottom: -42px;
+      left: 223px;
+    }
+    &-text {
+      position: absolute;
+      left: 123px;
+      top: 5px;
+      display: inline-block;
+      vertical-align: middle;
+      font-weight: $font-weight-regular;
+      font-size: 24px;
+      line-height: 36px;
+    }
+    &_bold {
+      font-weight: 700;
+    }
+    &-bg {
+      position: absolute;
+      left: 0;
+      bottom: -11px;
+      z-index: 1;
+      width: 410px;
+      height: 44px;
+      background-color: #FE8572;
+    }
+  }
+  &__btn {
+    grid-column: 4/6;
+    margin-top: 22px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(46, 46, 46, 0.27);
+    border-radius: 5px;
+    background-color: $color-orange;
+    z-index: 2;
+  }
+  &__img {
+    position: absolute;
+    top: 30px;
+    right: 65px;
+    z-index: 1;
+}
+  }
+

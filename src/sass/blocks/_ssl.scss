@@ -1,0 +1,240 @@
+.ssl {
+  background: #F8F8F8;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  .container {
+    grid-template-rows: 72px 200px 580px 1fr;
+  }
+  &__title {
+    margin-top: -4px;
+    width: 1180px;
+    text-align: center;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+    letter-spacing: $letter-spacing-h2;
+    color: $color-gray;
+  }
+  &__descr {
+    grid-column: 1/8;
+    grid-row: 2;
+    margin-top: 53px;
+    width: 730px;
+    font-size: $font-size-main-text;
+    line-height: $line-height-main-text;
+    font-weight: $font-weight-regular;
+    .maintext_bold {
+      font-weight: $font-weight-semibold;
+    }
+    &_second {
+      margin-top: 23px;
+    }
+  }
+  .comodo {
+    grid-column: 1/3;
+  }
+  .positive {
+    grid-column: 4/6;
+    .ssl__card-title {
+      margin-top: 40px;
+      margin-left: 49px;
+      margin-right: 54px;
+    }
+    .ssl__card-hr {
+      margin-top: 30px;
+    }
+    .ssl__card-item{
+      &_first {
+        margin-left: 26px;
+      }
+      &_second {
+        margin-top: 16px;
+        margin-left: 67px;
+      }
+      &_third {
+        margin-top: 17px;
+        margin-left: 32px;
+      }
+      &_fourth {
+        margin-top: 14px;
+      }
+      &_fifth {
+        margin-top: 16px;
+        margin-left: 24px;
+      }
+      &_sixth {
+        margin-top: 16px;
+        margin-left: 6px;
+      }
+      &_seventh {
+        margin-top: 17px;
+        margin-left: 31px;
+      }
+    }
+    .ssl__card-price {
+      margin-left: 8px;
+      .minitext {
+        margin-left: 11px;
+      }
+    }
+  }
+  .essential {
+    grid-column: 7/9;
+    .ssl__card-title {
+      margin-left: 8px;
+      margin-right: 7px;
+    }
+    .ssl__card-item {
+      &_first {
+        margin-left: 26px;
+      }
+      &_second {
+        margin-left: 41px;
+      }
+      &_third {
+        margin-left: 43px;
+      }
+      &_fourth {
+        margin-left: 25px;
+      }
+      &_fifth {
+        margin-left: 6px;
+      }
+      &_sixth {
+        margin-left: 32px;
+      }
+    }
+    .ssl__card-price {
+      .minitext {
+        margin-left: 9px;
+      }
+    }
+  }
+  .business {
+    grid-column: 10/12;
+    .ssl__card-title {
+      margin-top: 56px;
+      margin-left: 29px;
+      margin-right: 31px;
+    }
+    .ssl__card-item {
+      &_first {
+        margin-left: 28px;
+      }
+      &_second {
+        margin-top: 10px;
+        margin-left: 49px;
+      }
+      &_third {
+        margin-top: 17px;
+        margin-left: 40px;
+      }
+      &_fourth {
+        margin-top: 15px;
+        margin-left: 29px;
+      }
+      &_fifth {
+        margin-top: 15px;
+        margin-left: 70px;
+      }
+      &_sixth {
+        margin-top: 16px;
+        margin-left: 6px;
+      }
+      &_seventh {
+        margin-top: 16px;
+        margin-left: 32px;
+      }
+    }
+    .ssl__card-price {
+      .minitext {
+        margin-left: 1px;
+      }
+    }
+  }
+  &__card {
+    position: relative;
+    padding-bottom: 30px;
+    margin-top: 44px;
+    width: 280px;
+    height: 551px;
+    background: rgba(103, 168, 210, 0.1);
+    border: 1px solid rgba(103, 168, 210, 0.3);
+    box-shadow: 0px 4px 4px rgba(183, 183, 183, 0.43);
+    border-radius: 10px;
+    &-number {
+      position: absolute;
+      top: -9px;
+      left: 13px;
+      font-size: 72px;
+      line-height: 108px;
+      font-weight: $font-weight-semibold;
+      color: $color-blue;
+      opacity: 0.5;
+    }
+    &-title {
+      margin-top: 56px;
+      margin-left: 41px;
+      margin-right: 48px;
+      font-size: $font-size-main-text;
+      line-height: $line-height-main-text;
+      font-weight: $font-weight-semibold;
+      color: #1B567C;
+      text-align: center;
+      font-style: normal;
+    }
+    &-hr {
+      margin: 45px auto 0;
+      border: 0.5px solid #1B567C;
+      width: 180px;
+    }
+    &-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 30px;
+      height: 224px;
+    }
+    &-item {
+      font-size: $font-size-mini-text;
+      line-height: $line-height-mini-text;
+      font-weight: $font-weight-regular;
+      color: $color-gray;
+      &_first {
+        margin-left: 25px;
+      }
+      &_second {
+        margin-left: 60px;
+      }
+      &_third {
+        margin-left: 40px;
+      }
+      &_fourth {
+        margin-left: 42px;
+      }
+      &_fifth {
+        margin-left: 10px;
+      }
+      &_sixth {
+        margin-left: 29px;
+      }
+    }
+    &-price {
+      margin-top: 70px;
+      text-align: center;
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: $font-weight-semibold;
+      color: #1B567C;
+      .minitext {
+        margin-left: 5px;
+      }
+    }
+  }
+  &__btn {
+    grid-column: 5;
+    grid-row: 4;
+    margin-top: 76px;
+    margin-left: 31px;
+  }
+}

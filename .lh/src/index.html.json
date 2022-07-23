@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1657816094249,
@@ -20,6 +20,22 @@
                 {
                     "date": 1657817693009,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,7 +9,8 @@\n </head>\r\n \r\n <body>\r\n \r\n+  <script src=\"js/main.js\"></script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657878974764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n   <title>Hosting</title>\r\n </head>\r\n \r\n <body>\r\n+  @@include('./_includes/_header.html')\r\n \r\n   <script src=\"js/main.js\"></script>\r\n </body>\r\n \r\n"
+                },
+                {
+                    "date": 1657969217451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n </head>\r\n \r\n <body>\r\n   @@include('./_includes/_header.html')\r\n+  @@include('./_includes/_promo.html')\r\n \r\n   <script src=\"js/main.js\"></script>\r\n </body>\r\n \r\n"
+                },
+                {
+                    "date": 1657986643067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n \r\n <body>\r\n   @@include('./_includes/_header.html')\r\n   @@include('./_includes/_promo.html')\r\n+  @@include('./_includes/_tariffs.html')\r\n \r\n   <script src=\"js/main.js\"></script>\r\n </body>\r\n \r\n"
+                },
+                {
+                    "date": 1658122653520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,13 @@\n <body>\r\n   @@include('./_includes/_header.html')\r\n   @@include('./_includes/_promo.html')\r\n   @@include('./_includes/_tariffs.html')\r\n+  @@include('./_includes/_bonus.html')\r\n+  @@include('./_includes/_cms.html')\r\n+  @@include('./_includes/_ssl.html')\r\n+  @@include('./_includes/_domains.html')\r\n+  @@include('./_includes/_footer.html')\r\n \r\n   <script src=\"js/main.js\"></script>\r\n </body>\r\n \r\n"
                 }
             ],
             "date": 1657816094249,

@@ -1,0 +1,69 @@
+.cms {
+  padding-top: 48px;
+  padding-bottom: 86px;
+  background: linear-gradient(to bottom right,  rgba(220,232,240,1) 50%, rgba(196,219,234,1) 50%);
+  .container {
+    grid-template-rows: 72px 117px 122px 115px 115px;
+  }
+  &__title {
+    grid-row: 1;
+    margin-top: 5px;
+    width: 1180px;
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+    letter-spacing: $letter-spacing-h2;
+    font-weight: $font-weight-regular;
+    text-align: center;
+  }
+  &__descr {
+    grid-column: 1/8;
+    grid-row: 2;
+    margin-top: 62px;
+    width: 720px;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-main-text;
+    line-height: $line-height-main-text;
+    color: $color-gray;
+    &_bold {
+      font-weight: $font-weight-semibold;
+    }
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    &_first {
+      grid-row: 3;
+      grid-column: 1/12;
+      margin-top: 78px;
+    }
+    &_second {
+      grid-row: 4;
+      grid-column: 1/12;
+      margin-top: 62px;
+    }
+    &_third {
+      grid-row: 5;
+      grid-column: 1/12;
+      align-items: flex-end;
+      .shopScript {
+        margin-top: 50px;
+        margin-left: 118px;
+      }
+      .dle {
+        margin-left: 22px;
+        margin-bottom: 7px;
+        width: 170px;
+      }
+      .hostCMS {
+        margin-left: 28px;
+        margin-bottom: 14px;
+        width: 189px;
+      }
+      .prestaShop {
+        margin-right: 111px;
+        margin-bottom: 9px;
+      }
+    }
+  }
+}

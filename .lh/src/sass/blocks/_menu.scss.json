@@ -1,0 +1,282 @@
+{
+    "sourceFile": "src/sass/blocks/_menu.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 66,
+            "patches": [
+                {
+                    "date": 1657890494346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1657890535292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n .menu {\r\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n+  &__link {\r\n+    text-decoration: none;\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657890550115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .menu {\r\n+  list-style-type: none;\r\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__link {\r\n     text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1657890649839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__link {\r\n     text-decoration: none;\r\n+    color: $color-text;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657890671637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .menu {\r\n+  display: flex;\r\n   list-style-type: none;\r\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__link {\r\n"
+                },
+                {
+                    "date": 1657891361368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .menu {\r\n+  padding: 17px 0;\r\n   display: flex;\r\n   list-style-type: none;\r\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n"
+                },
+                {
+                    "date": 1657891480578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n .menu {\r\n+  .container {\r\n+    background-color: $color-white;\r\n+  }\r\n   padding: 17px 0;\r\n   display: flex;\r\n   list-style-type: none;\r\n-  background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__link {\r\n     text-decoration: none;\r\n     color: $color-text;\r\n"
+                },
+                {
+                    "date": 1657891661335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,14 @@\n .menu {\r\n   .container {\r\n     background-color: $color-white;\r\n   }\r\n+  &__list {\r\n   padding: 17px 0;\r\n   display: flex;\r\n   list-style-type: none;\r\n-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n+  \r\n+  }\r\n   &__link {\r\n     text-decoration: none;\r\n     color: $color-text;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657891691802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .menu {\r\n   .container {\r\n     background-color: $color-white;\r\n+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   }\r\n   &__list {\r\n   padding: 17px 0;\r\n   display: flex;\r\n"
+                },
+                {
+                    "date": 1657891809644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n .menu {\r\n+  background-color: $color-white;\r\n+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   .container {\r\n-    background-color: $color-white;\r\n-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n+    \r\n   }\r\n   &__list {\r\n   padding: 17px 0;\r\n   display: flex;\r\n"
+                },
+                {
+                    "date": 1657891825349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n   }\r\n   &__list {\r\n   padding: 17px 0;\r\n   display: flex;\r\n+  align-items: center;\r\n   list-style-type: none;\r\n   \r\n   }\r\n   &__link {\r\n"
+                },
+                {
+                    "date": 1657892402536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,7 @@\n .menu {\r\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n-  .container {\r\n-    \r\n-  }\r\n   &__list {\r\n   padding: 17px 0;\r\n   display: flex;\r\n   align-items: center;\r\n"
+                },
+                {
+                    "date": 1657892417497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n .menu {\r\n+  padding: 17px 0;\r\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__list {\r\n-  padding: 17px 0;\r\n+  \r\n   display: flex;\r\n   align-items: center;\r\n   list-style-type: none;\r\n   \r\n"
+                },
+                {
+                    "date": 1657892438366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,8 @@\n   padding: 17px 0;\r\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__list {\r\n-  \r\n-  display: flex;\r\n-  align-items: center;\r\n   list-style-type: none;\r\n   \r\n   }\r\n   &__link {\r\n"
+                },
+                {
+                    "date": 1657892488289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__list {\r\n   list-style-type: none;\r\n-  \r\n   }\r\n   &__link {\r\n     text-decoration: none;\r\n     color: $color-text;\r\n"
+                },
+                {
+                    "date": 1657962677134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n .menu {\r\n-  padding: 17px 0;\r\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__list {\r\n   list-style-type: none;\r\n"
+                },
+                {
+                    "date": 1657963112541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,12 @@\n .menu {\r\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__list {\r\n-  list-style-type: none;\r\n+    display: flex;\r\n+    justify-content: space-between;\r\n+    grid-column: 1/12;\r\n+    list-style-type: none;\r\n   }\r\n   &__link {\r\n     text-decoration: none;\r\n     color: $color-text;\r\n"
+                },
+                {
+                    "date": 1657963897905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n .menu {\r\n+  display: flex;\r\n+    align-items: center;\r\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__list {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1657963903145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .menu {\r\n   display: flex;\r\n-    align-items: center;\r\n+  align-items: center;\r\n   background-color: $color-white;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__list {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1657964355355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,11 @@\n     display: flex;\r\n     justify-content: space-between;\r\n     grid-column: 1/12;\r\n     list-style-type: none;\r\n+    :last-child {\r\n+      justify-self: end;\r\n+    }\r\n   }\r\n   &__link {\r\n     text-decoration: none;\r\n     color: $color-text;\r\n"
+                },
+                {
+                    "date": 1657965075495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,18 @@\n     :last-child {\r\n       justify-self: end;\r\n     }\r\n   }\r\n+  &__item {\r\n+    position: relative;\r\n+    .down {\r\n+      position: absolute;\r\n+      left: 3px;\r\n+      \r\n+    }\r\n+  }\r\n   &__link {\r\n     text-decoration: none;\r\n     color: $color-text;\r\n   }\r\n+\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657965090273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,11 @@\n   &__item {\r\n     position: relative;\r\n     .down {\r\n       position: absolute;\r\n+      top: 6px;\r\n       left: 3px;\r\n-      \r\n+\r\n     }\r\n   }\r\n   &__link {\r\n     text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1657965130754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,11 @@\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n       left: 3px;\r\n-\r\n+      width: 14px;\r\n+      height: 8px;\r\n+      border: 1px solid $color-text;\r\n     }\r\n   }\r\n   &__link {\r\n     text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1657965803111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,8 @@\n     position: relative;\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n-      left: 3px;\r\n       width: 14px;\r\n       height: 8px;\r\n       border: 1px solid $color-text;\r\n     }\r\n"
+                },
+                {
+                    "date": 1657970104485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,10 @@\n     }\r\n   }\r\n   &__item {\r\n     position: relative;\r\n+    font-size: 20px;\r\n+    line-height: 30px;\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n       width: 14px;\r\n"
+                },
+                {
+                    "date": 1657970355217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,6 +27,5 @@\n   &__link {\r\n     text-decoration: none;\r\n     color: $color-text;\r\n   }\r\n-\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657976687752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,16 @@\n       width: 14px;\r\n       height: 8px;\r\n       border: 1px solid $color-text;\r\n     }\r\n+    .vertival-line {\r\n+      width: 20px;\r\n+      height: 0px;\r\n+      border: 1px solid #262626;\r\n+      transform: rotate(90deg);\r\n+      opacity: 0.2;\r\n+}\r\n+    }\r\n   }\r\n   &__link {\r\n     text-decoration: none;\r\n     color: $color-text;\r\n"
+                },
+                {
+                    "date": 1657976713407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,11 +28,11 @@\n       height: 0px;\r\n       border: 1px solid #262626;\r\n       transform: rotate(90deg);\r\n       opacity: 0.2;\r\n-}\r\n     }\r\n   }\r\n+\r\n   &__link {\r\n     text-decoration: none;\r\n     color: $color-text;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657976792406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,10 +23,8 @@\n       height: 8px;\r\n       border: 1px solid $color-text;\r\n     }\r\n     .vertival-line {\r\n-      width: 20px;\r\n-      height: 0px;\r\n       border: 1px solid #262626;\r\n       transform: rotate(90deg);\r\n       opacity: 0.2;\r\n     }\r\n"
+                },
+                {
+                    "date": 1657976871802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,15 +22,14 @@\n       width: 14px;\r\n       height: 8px;\r\n       border: 1px solid $color-text;\r\n     }\r\n-    .vertival-line {\r\n+    .vertical-line {\r\n       border: 1px solid #262626;\r\n       transform: rotate(90deg);\r\n       opacity: 0.2;\r\n     }\r\n   }\r\n-\r\n   &__link {\r\n     text-decoration: none;\r\n     color: $color-text;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657976904137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,10 @@\n       height: 8px;\r\n       border: 1px solid $color-text;\r\n     }\r\n     .vertical-line {\r\n+      width: 1px;\r\n+      height: 20px;\r\n       border: 1px solid #262626;\r\n       transform: rotate(90deg);\r\n       opacity: 0.2;\r\n     }\r\n"
+                },
+                {
+                    "date": 1657977140678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,10 +23,10 @@\n       height: 8px;\r\n       border: 1px solid $color-text;\r\n     }\r\n     .vertical-line {\r\n-      width: 1px;\r\n-      height: 20px;\r\n+      width: 20px;\r\n+      height: 0px;\r\n       border: 1px solid #262626;\r\n       transform: rotate(90deg);\r\n       opacity: 0.2;\r\n     }\r\n"
+                },
+                {
+                    "date": 1658151911011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,12 +5,17 @@\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__list {\r\n     display: flex;\r\n     justify-content: space-between;\r\n+    width: 1180px;\r\n     grid-column: 1/12;\r\n+    margin-left: 18px;\r\n     list-style-type: none;\r\n     :last-child {\r\n       justify-self: end;\r\n+      &::after {\r\n+        display: none;\r\n+      }\r\n     }\r\n   }\r\n   &__item {\r\n     position: relative;\r\n@@ -22,13 +27,17 @@\n       width: 14px;\r\n       height: 8px;\r\n       border: 1px solid $color-text;\r\n     }\r\n-    .vertical-line {\r\n-      width: 20px;\r\n+    &::after {\r\n+      content: '';\r\n+      display: inline-block;\r\n+      vertical-align: middle;\r\n+      width: 18px;\r\n       height: 0px;\r\n       border: 1px solid #262626;\r\n       transform: rotate(90deg);\r\n+      border: 1px solid #262626;\r\n       opacity: 0.2;\r\n     }\r\n   }\r\n   &__link {\r\n"
+                },
+                {
+                    "date": 1658158402192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,8 @@\n     display: flex;\r\n     justify-content: space-between;\r\n     width: 1180px;\r\n     grid-column: 1/12;\r\n-    margin-left: 18px;\r\n     list-style-type: none;\r\n     :last-child {\r\n       justify-self: end;\r\n       &::after {\r\n"
+                },
+                {
+                    "date": 1658200919637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,11 @@\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   &__list {\r\n     display: flex;\r\n     justify-content: space-between;\r\n+    align-items: center;\r\n     width: 1180px;\r\n+    height: 64px;\r\n     grid-column: 1/12;\r\n     list-style-type: none;\r\n     :last-child {\r\n       justify-self: end;\r\n"
+                },
+                {
+                    "date": 1658200961768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n   &__item {\r\n     position: relative;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n+    font-style: normal;\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n       width: 14px;\r\n"
+                },
+                {
+                    "date": 1658201115332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,10 @@\n     }\r\n   }\r\n   &__item {\r\n     position: relative;\r\n+    top: -2px;\r\n+    left: -1px;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n     font-style: normal;\r\n     .down {\r\n"
+                },
+                {
+                    "date": 1658201211394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,8 @@\n   }\r\n   &__item {\r\n     position: relative;\r\n     top: -2px;\r\n-    left: -1px;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n     font-style: normal;\r\n     .down {\r\n"
+                },
+                {
+                    "date": 1658201238917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,11 @@\n     top: -2px;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n     font-style: normal;\r\n+    &_second {\r\n+      \r\n+    }\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n       width: 14px;\r\n"
+                },
+                {
+                    "date": 1658201511583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,10 +23,17 @@\n     top: -2px;\r\n     font-size: 20px;\r\n     line-height: 30px;\r\n     font-style: normal;\r\n+    &_first {\r\n+      &:before {\r\n+        position: absolute;\r\n+        right: -71px;\r\n+        top: 14px;\r\n+      }\r\n+    }\r\n     &_second {\r\n-      \r\n+\r\n     }\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n"
+                },
+                {
+                    "date": 1658201627255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     font-size: 20px;\r\n     line-height: 30px;\r\n     font-style: normal;\r\n     &_first {\r\n-      &:before {\r\n+      &:after {\r\n         position: absolute;\r\n         right: -71px;\r\n         top: 14px;\r\n       }\r\n"
+                },
+                {
+                    "date": 1658201681274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     font-size: 20px;\r\n     line-height: 30px;\r\n     font-style: normal;\r\n     &_first {\r\n-      &:after {\r\n+      &::after {\r\n         position: absolute;\r\n         right: -71px;\r\n         top: 14px;\r\n       }\r\n"
+                },
+                {
+                    "date": 1658202266534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         top: 14px;\r\n       }\r\n     }\r\n     &_second {\r\n-\r\n+      margin-left: 17px;\r\n     }\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n"
+                },
+                {
+                    "date": 1658202295710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         top: 14px;\r\n       }\r\n     }\r\n     &_second {\r\n-      margin-left: 17px;\r\n+      left: 17px;\r\n     }\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n"
+                },
+                {
+                    "date": 1658203157135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,13 @@\n       }\r\n     }\r\n     &_second {\r\n       left: 17px;\r\n+      &::after {\r\n+        position: absolute;\r\n+        top: 14px;\r\n+        left: 77px;\r\n+      }\r\n     }\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n"
+                },
+                {
+                    "date": 1658203238105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,13 +31,13 @@\n         top: 14px;\r\n       }\r\n     }\r\n     &_second {\r\n-      left: 17px;\r\n+      left: 11px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n-        left: 77px;\r\n+        left: 96px;\r\n       }\r\n     }\r\n     .down {\r\n       position: absolute;\r\n"
+                },
+                {
+                    "date": 1658203329241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,11 @@\n         top: 14px;\r\n         left: 96px;\r\n       }\r\n     }\r\n+    &_third {\r\n+      right:\r\n+    }\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n       width: 14px;\r\n"
+                },
+                {
+                    "date": 1658203335197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n         left: 96px;\r\n       }\r\n     }\r\n     &_third {\r\n-      right:\r\n+      right: -21px;\r\n     }\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n"
+                },
+                {
+                    "date": 1658203436687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,13 @@\n       }\r\n     }\r\n     &_third {\r\n       right: -21px;\r\n+      &::after {\r\n+        position: absolute;\r\n+        top: 14px;\r\n+        left: -84px;\r\n+      }\r\n     }\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n"
+                },
+                {
+                    "date": 1658203479828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         top: 14px;\r\n       }\r\n     }\r\n     &_second {\r\n-      left: 11px;\r\n+      left: 5px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n         left: 96px;\r\n"
+                },
+                {
+                    "date": 1658203581869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n       right: -21px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n-        left: -84px;\r\n+        left: 285px;\r\n       }\r\n     }\r\n     .down {\r\n       position: absolute;\r\n"
+                },
+                {
+                    "date": 1658203616113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n         left: 96px;\r\n       }\r\n     }\r\n     &_third {\r\n-      right: -21px;\r\n+      right: -9px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n         left: 285px;\r\n"
+                },
+                {
+                    "date": 1658203676781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,8 +46,11 @@\n         top: 14px;\r\n         left: 285px;\r\n       }\r\n     }\r\n+    &_foutrh {\r\n+      left: 13px;\r\n+    }\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n       width: 14px;\r\n"
+                },
+                {
+                    "date": 1658203766259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,8 +48,13 @@\n       }\r\n     }\r\n     &_foutrh {\r\n       left: 13px;\r\n+      &::after {\r\n+        position: absolute;\r\n+        top: 14px;\r\n+        left: \r\n+      }\r\n     }\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n"
+                },
+                {
+                    "date": 1658203772232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n       left: 13px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n-        left: \r\n+        left: 73px;\r\n       }\r\n     }\r\n     .down {\r\n       position: absolute;\r\n"
+                },
+                {
+                    "date": 1658203827283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n         left: 96px;\r\n       }\r\n     }\r\n     &_third {\r\n-      right: -9px;\r\n+      right: -20px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n         left: 285px;\r\n"
+                },
+                {
+                    "date": 1658203902613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n         left: 96px;\r\n       }\r\n     }\r\n     &_third {\r\n-      right: -20px;\r\n+      right: -9px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n         left: 285px;\r\n"
+                },
+                {
+                    "date": 1658203950521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n       right: -9px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n-        left: 285px;\r\n+        left: 297px;\r\n       }\r\n     }\r\n     &_foutrh {\r\n       left: 13px;\r\n"
+                },
+                {
+                    "date": 1658204152245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,8 +54,11 @@\n         top: 14px;\r\n         left: 73px;\r\n       }\r\n     }\r\n+    &_fifth {\r\n+      \r\n+    }\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n       width: 14px;\r\n"
+                },
+                {
+                    "date": 1658204159822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n         left: 73px;\r\n       }\r\n     }\r\n     &_fifth {\r\n-      \r\n+      left: -6px;\r\n     }\r\n     .down {\r\n       position: absolute;\r\n       top: 6px;\r\n"
+                },
+                {
+                    "date": 1658204218999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n         top: 14px;\r\n         left: 297px;\r\n       }\r\n     }\r\n-    &_foutrh {\r\n+    &_fourth {\r\n       left: 13px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n"
+                },
+                {
+                    "date": 1658204280013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,8 @@\n         top: 14px;\r\n       }\r\n     }\r\n     &_second {\r\n-      left: 5px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n         left: 96px;\r\n"
+                },
+                {
+                    "date": 1658204314335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n     &_second {\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n-        left: 96px;\r\n+        left: 95px;\r\n       }\r\n     }\r\n     &_third {\r\n       right: -9px;\r\n"
+                },
+                {
+                    "date": 1658204355568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n         left: 95px;\r\n       }\r\n     }\r\n     &_third {\r\n-      right: -9px;\r\n+      left: -3px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n         left: 297px;\r\n"
+                },
+                {
+                    "date": 1658204408136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n         left: 297px;\r\n       }\r\n     }\r\n     &_fourth {\r\n-      left: 13px;\r\n+      left: -4px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n         left: 73px;\r\n"
+                },
+                {
+                    "date": 1658204448822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n       left: -4px;\r\n       &::after {\r\n         position: absolute;\r\n         top: 14px;\r\n-        left: 73px;\r\n+        left: 90px;\r\n       }\r\n     }\r\n     &_fifth {\r\n       left: -6px;\r\n"
+                },
+                {
+                    "date": 1658205343942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,6 +78,10 @@\n   }\r\n   &__link {\r\n     text-decoration: none;\r\n     color: $color-text;\r\n+    svg {\r\n+      position: relative;\r\n+      left: 4px;\r\n+    }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1657890494346,
+            "name": "Commit-0",
+            "content": ".menu {\r\n  background-color: $color-white;\r\n  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n}"
+        }
+    ]
+}

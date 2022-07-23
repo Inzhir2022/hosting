@@ -1,0 +1,130 @@
+{
+    "sourceFile": "src/_includes/_promo.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 28,
+            "patches": [
+                {
+                    "date": 1657969119592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1657969136499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<div class=\"promo header__promo\">\r\n+<div class=\"promo\">\r\n   <div class=\"container\">\r\n     <div class=\"header__promo-img\">\r\n       <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1657975137404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <div class=\"promo\">\r\n   <div class=\"container\">\r\n-    <div class=\"header__promo-img\">\r\n+    <div class=\"promo__img\">\r\n       <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n     </div>\r\n     <h1 class=\"promo__title\">Платный хостинг для сайта</h1>\r\n     <div class=\"promo__description\">\r\n"
+                },
+                {
+                    "date": 1657975219272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n <div class=\"promo\">\r\n   <div class=\"container\">\r\n-    <div class=\"promo__img\">\r\n-      <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n-    </div>\r\n     <h1 class=\"promo__title\">Платный хостинг для сайта</h1>\r\n     <div class=\"promo__description\">\r\n       <p class=\"promo__text\">Совместим с любыми CMS: <span class=\"promo__text_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</span></p>\r\n       <p class=\"promo__text\">Всё включено: <span class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</span></p>\r\n     </div>\r\n+    <div class=\"promo__img\">\r\n+      <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n+    </div>\r\n   </div>\r\n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657975252399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,11 @@\n     <div class=\"promo__description\">\r\n       <p class=\"promo__text\">Совместим с любыми CMS: <span class=\"promo__text_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</span></p>\r\n       <p class=\"promo__text\">Всё включено: <span class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</span></p>\r\n     </div>\r\n+    <div class=\"promo__label\">\r\n+\r\n+    </div>\r\n     <div class=\"promo__img\">\r\n       <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n     </div>\r\n   </div>\r\n"
+                },
+                {
+                    "date": 1657975324950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n       <p class=\"promo__text\">Совместим с любыми CMS: <span class=\"promo__text_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</span></p>\r\n       <p class=\"promo__text\">Всё включено: <span class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</span></p>\r\n     </div>\r\n     <div class=\"promo__label\">\r\n-\r\n+      <div class=\"promo__label-bg\"></div>\r\n     </div>\r\n     <div class=\"promo__img\">\r\n       <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1657975346290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n       <p class=\"promo__text\">Совместим с любыми CMS: <span class=\"promo__text_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</span></p>\r\n       <p class=\"promo__text\">Всё включено: <span class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</span></p>\r\n     </div>\r\n     <div class=\"promo__label\">\r\n+      Всего от 99 ₽ в месяц!\r\n       <div class=\"promo__label-bg\"></div>\r\n     </div>\r\n     <div class=\"promo__img\">\r\n       <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n"
+                },
+                {
+                    "date": 1657975389492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n     <div class=\"promo__label\">\r\n       Всего от 99 ₽ в месяц!\r\n       <div class=\"promo__label-bg\"></div>\r\n     </div>\r\n+    <div class=\"btn promo__btn\"></div>\r\n     <div class=\"promo__img\">\r\n       <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n     </div>\r\n   </div>\r\n"
+                },
+                {
+                    "date": 1657975399857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     <div class=\"promo__label\">\r\n       Всего от 99 ₽ в месяц!\r\n       <div class=\"promo__label-bg\"></div>\r\n     </div>\r\n-    <div class=\"btn promo__btn\"></div>\r\n+    <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n     <div class=\"promo__img\">\r\n       <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n     </div>\r\n   </div>\r\n"
+                },
+                {
+                    "date": 1657977851744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,14 @@\n <div class=\"promo\">\r\n   <div class=\"container\">\r\n     <h1 class=\"promo__title\">Платный хостинг для сайта</h1>\r\n     <div class=\"promo__description\">\r\n-      <p class=\"promo__text\">Совместим с любыми CMS: <span class=\"promo__text_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</span></p>\r\n-      <p class=\"promo__text\">Всё включено: <span class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</span></p>\r\n+      <p class=\"promo__text\">Совместим с любыми CMS:\r\n+        <p class=\"promo__text_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</p>\r\n+      </p>\r\n+      <p class=\"promo__text\">Всё включено:\r\n+        <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n+      </p>\r\n     </div>\r\n     <div class=\"promo__label\">\r\n       Всего от 99 ₽ в месяц!\r\n       <div class=\"promo__label-bg\"></div>\r\n"
+                },
+                {
+                    "date": 1657978000627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n         <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n     <div class=\"promo__label\">\r\n-      Всего от 99 ₽ в месяц!\r\n-      <div class=\"promo__label-bg\"></div>\r\n+      Всего от <span>99 ₽ в месяц!\r\n+        <div class=\"promo__label-bg\"></div>\r\n     </div>\r\n     <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n     <div class=\"promo__img\">\r\n       <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n"
+                },
+                {
+                    "date": 1657978007208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n         <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n     <div class=\"promo__label\">\r\n-      Всего от <span>99 ₽ в месяц!\r\n-        <div class=\"promo__label-bg\"></div>\r\n+      Всего от <span>99 ₽ в месяц!</span>\r\n+      <div class=\"promo__label-bg\"></div>\r\n     </div>\r\n     <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n     <div class=\"promo__img\">\r\n       <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n"
+                },
+                {
+                    "date": 1657978212604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n     <div class=\"promo__label\">\r\n-      Всего от <span>99 ₽ в месяц!</span>\r\n+      Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n       <div class=\"promo__label-bg\"></div>\r\n     </div>\r\n     <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n     <div class=\"promo__img\">\r\n"
+                },
+                {
+                    "date": 1657978765487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n <div class=\"promo\">\r\n   <div class=\"container\">\r\n     <h1 class=\"promo__title\">Платный хостинг для сайта</h1>\r\n     <div class=\"promo__description\">\r\n-      <p class=\"promo__text\">Совместим с любыми CMS:\r\n-        <p class=\"promo__text_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</p>\r\n+      <p class=\"promo__text\">Совместим с любыми CMS:</p>\r\n+      <p class=\"promo__text_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</p>\r\n       </p>\r\n-      <p class=\"promo__text\">Всё включено:\r\n-        <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n+      <p class=\"promo__text\">Всё включено:</p>\r\n+      <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n     <div class=\"promo__label\">\r\n       Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n"
+                },
+                {
+                    "date": 1657979577655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,10 @@\n       <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n     <div class=\"promo__label\">\r\n-      Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n+      <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n+      </div>\r\n       <div class=\"promo__label-bg\"></div>\r\n     </div>\r\n     <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n     <div class=\"promo__img\">\r\n"
+                },
+                {
+                    "date": 1657979669209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,13 @@\n       <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n     <div class=\"promo__label\">\r\n-      <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n+      <div class=\"promo__label-wrapper\">\r\n+        <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n+        </div>\r\n+        <div class=\"promo__label-bg\"></div>\r\n       </div>\r\n-      <div class=\"promo__label-bg\"></div>\r\n     </div>\r\n     <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n     <div class=\"promo__img\">\r\n       <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n"
+                },
+                {
+                    "date": 1657979809663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,14 @@\n       <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n     <div class=\"promo__label\">\r\n-      <div class=\"promo__label-wrapper\">\r\n-        <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n+      <div class=\"promo__wrapper-label\">\r\n+        <div class=\"promo__label\">\r\n+          <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n+          </div>\r\n+          <div class=\"promo__label-bg\"></div>\r\n         </div>\r\n-        <div class=\"promo__label-bg\"></div>\r\n       </div>\r\n     </div>\r\n     <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n     <div class=\"promo__img\">\r\n"
+                },
+                {
+                    "date": 1657979890500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,15 +8,13 @@\n       <p class=\"promo__text\">Всё включено:</p>\r\n       <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n-    <div class=\"promo__label\">\r\n-      <div class=\"promo__wrapper-label\">\r\n-        <div class=\"promo__label\">\r\n-          <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n-          </div>\r\n-          <div class=\"promo__label-bg\"></div>\r\n+    <div class=\"promo__wrapper-label\">\r\n+      <div class=\"promo__label\">\r\n+        <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n         </div>\r\n+        <div class=\"promo__label-bg\"></div>\r\n       </div>\r\n     </div>\r\n     <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n     <div class=\"promo__img\">\r\n"
+                },
+                {
+                    "date": 1657980154647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n       <p class=\"promo__text\">Всё включено:</p>\r\n       <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n-    <div class=\"promo__wrapper-label\">\r\n+    <div class=\"promo__wrapper\">\r\n       <div class=\"promo__label\">\r\n         <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n         </div>\r\n         <div class=\"promo__label-bg\"></div>\r\n"
+                },
+                {
+                    "date": 1657982770667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,11 @@\n       </p>\r\n     </div>\r\n     <div class=\"promo__wrapper\">\r\n       <div class=\"promo__label\">\r\n+        <div class=\"promo__label-bg\"></div>\r\n         <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n         </div>\r\n-        <div class=\"promo__label-bg\"></div>\r\n       </div>\r\n     </div>\r\n     <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n     <div class=\"promo__img\">\r\n"
+                },
+                {
+                    "date": 1657982998021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,16 +9,15 @@\n       <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n     <div class=\"promo__wrapper\">\r\n-      <div class=\"promo__label\">\r\n-        <div class=\"promo__label-bg\"></div>\r\n-        <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n-        </div>\r\n+      <div class=\"promo__label\"></div>\r\n+      <div class=\"promo__label-bg\"></div>\r\n+      <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n       </div>\r\n     </div>\r\n-    <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n-    <div class=\"promo__img\">\r\n-      <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n-    </div>\r\n   </div>\r\n+  <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n+  <div class=\"promo__img\">\r\n+    <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n+  </div>\r\n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657983051258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,10 @@\n       <div class=\"promo__label-bg\"></div>\r\n       <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n       </div>\r\n     </div>\r\n+    <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n+    <div class=\"promo__img\">\r\n+      <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n+    </div>\r\n   </div>\r\n-  <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n-  <div class=\"promo__img\">\r\n-    <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n-  </div>\r\n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657983385920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,14 @@\n       <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n     <div class=\"promo__wrapper\">\r\n-      <div class=\"promo__label\"></div>\r\n+      <div class=\"promo__label\">\r\n+        <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n+        </div>\r\n+      </div>\r\n       <div class=\"promo__label-bg\"></div>\r\n-      <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n-      </div>\r\n+\r\n     </div>\r\n     <div class=\"btn promo__btn\">Заказать хостинг</div>\r\n     <div class=\"promo__img\">\r\n       <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n"
+                },
+                {
+                    "date": 1657985416351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n       </p>\r\n     </div>\r\n     <div class=\"promo__wrapper\">\r\n       <div class=\"promo__label\">\r\n-        <div class=\"promo__label-text\">Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n+        <div class=\"promo__label-text\">Всего от <img src=\"../img/header/promo_arrow.svg\" alt=\"arrow\"><span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n         </div>\r\n       </div>\r\n       <div class=\"promo__label-bg\"></div>\r\n \r\n"
+                },
+                {
+                    "date": 1658205577833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n-<div class=\"promo\">\r\n+<section class=\"promo\">\r\n   <div class=\"container\">\r\n     <h1 class=\"promo__title\">Платный хостинг для сайта</h1>\r\n     <div class=\"promo__description\">\r\n-      <p class=\"promo__text\">Совместим с любыми CMS:</p>\r\n-      <p class=\"promo__text_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</p>\r\n+      <p class=\"promo__maintext\">Совместим с любыми CMS:</p>\r\n+      <p class=\"promo__maintext_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</p>\r\n       </p>\r\n       <p class=\"promo__text\">Всё включено:</p>\r\n       <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n@@ -21,5 +21,5 @@\n     <div class=\"promo__img\">\r\n       <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n     </div>\r\n   </div>\r\n-</div>\n\\ No newline at end of file\n+</section>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658205825514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,10 @@\n     <div class=\"promo__description\">\r\n       <p class=\"promo__maintext\">Совместим с любыми CMS:</p>\r\n       <p class=\"promo__maintext_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</p>\r\n       </p>\r\n-      <p class=\"promo__text\">Всё включено:</p>\r\n-      <p class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n+      <p class=\"promo__maintext\">Всё включено:</p>\r\n+      <p class=\"promo__maintext_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n     <div class=\"promo__wrapper\">\r\n       <div class=\"promo__label\">\r\n"
+                },
+                {
+                    "date": 1658206018437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n <section class=\"promo\">\r\n   <div class=\"container\">\r\n     <h1 class=\"promo__title\">Платный хостинг для сайта</h1>\r\n     <div class=\"promo__description\">\r\n-      <p class=\"promo__maintext\">Совместим с любыми CMS:</p>\r\n+      <p class=\"promo__maintext promo__maintext_first\">Совместим с любыми CMS:</p>\r\n       <p class=\"promo__maintext_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</p>\r\n       </p>\r\n-      <p class=\"promo__maintext\">Всё включено:</p>\r\n+      <p class=\"promo__maintext promo__maintext_second\">Всё включено:</p>\r\n       <p class=\"promo__maintext_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n     <div class=\"promo__wrapper\">\r\n"
+                },
+                {
+                    "date": 1658206484667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,12 @@\n   <div class=\"container\">\r\n     <h1 class=\"promo__title\">Платный хостинг для сайта</h1>\r\n     <div class=\"promo__description\">\r\n       <p class=\"promo__maintext promo__maintext_first\">Совместим с любыми CMS:</p>\r\n-      <p class=\"promo__maintext_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</p>\r\n+      <p class=\"promo__maintext_bold promo__maintext_bold_first\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</p>\r\n       </p>\r\n       <p class=\"promo__maintext promo__maintext_second\">Всё включено:</p>\r\n-      <p class=\"promo__maintext_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n+      <p class=\"promo__maintext_bold promo__maintext_bold_second\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</p>\r\n       </p>\r\n     </div>\r\n     <div class=\"promo__wrapper\">\r\n       <div class=\"promo__label\">\r\n"
+                },
+                {
+                    "date": 1658207946816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,11 @@\n       </p>\r\n     </div>\r\n     <div class=\"promo__wrapper\">\r\n       <div class=\"promo__label\">\r\n-        <div class=\"promo__label-text\">Всего от <img src=\"../img/header/promo_arrow.svg\" alt=\"arrow\"><span class=\"promo__label_bold\">99 ₽ в месяц!</span>\r\n+        <div class=\"promo__label-text\">\r\n+          <p>Всего от <span class=\"promo__label_bold\">99 ₽ в месяц!</span></p>\r\n+          <img src=\"../img/header/promo_arrow.svg\" alt=\"arrow\">\r\n         </div>\r\n       </div>\r\n       <div class=\"promo__label-bg\"></div>\r\n \r\n"
+                }
+            ],
+            "date": 1657969119592,
+            "name": "Commit-0",
+            "content": "<div class=\"promo header__promo\">\r\n  <div class=\"container\">\r\n    <div class=\"header__promo-img\">\r\n      <img src=\"../img/header/promo.png\" alt=\"promo img\">\r\n    </div>\r\n    <h1 class=\"promo__title\">Платный хостинг для сайта</h1>\r\n    <div class=\"promo__description\">\r\n      <p class=\"promo__text\">Совместим с любыми CMS: <span class=\"promo__text_bold\">1С-Битрикс, Wordpress, Opencart, DLE, Joomla и др.</span></p>\r\n      <p class=\"promo__text\">Всё включено: <span class=\"promo__text_bold\">PHP 5.4 – 8.0, Perl, FTP, MySQL, ISPManager</span></p>\r\n    </div>\r\n  </div>\r\n</div>"
+        }
+    ]
+}

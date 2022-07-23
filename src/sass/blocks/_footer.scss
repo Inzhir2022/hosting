@@ -1,0 +1,202 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background-color: $color-text;
+  padding-top: 89px;
+  padding-bottom: 31px;
+  margin-top: 118px;
+  a, a:hover, a:visited, a:link {
+    color: $color-white;
+  }
+  .container {
+    grid-template-rows: 96px 181px 386px 77px;
+  }
+  &__logo {
+    grid-column: 1/2;
+    height: 89.29px;
+  }
+  &__minitext {
+    grid-column: 1/6;
+    margin-top: 9.7px;
+    width: 490px;
+    color:$color-text2;
+  }
+  &__contacts {
+    grid-column: 6/9;
+    grid-row: 1;
+    width: 329px;
+    margin-left: 43px;
+  }
+  &__phone {
+    display: flex;
+		&_minitext {
+			color:$color-text2;
+		}
+  }
+  &__mail {
+    display: flex;
+    margin-top: 25px;
+		&_minitext {
+			color:$color-text2;
+		}
+  }
+  &__address {
+    display: flex;
+    margin-top: 26px;
+		&_minitext {
+			color:$color-text2;
+		}
+    address {
+      font-weight: $font-weight-semibold;
+      font-size: $font-size-mini-text;
+      color: $color-white;
+      font-style: normal;
+    }
+  }
+  &__descr {
+    margin-top: 26px;
+    margin-left: 39px;
+		color: $color-white;
+  }
+  &__social {
+    grid-column: 10/12;
+    grid-row: 1;
+    margin-left: 30px;
+    width: 252px;
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(90deg, #7CB4D8 0%, rgba(191, 230, 255, 0) 100%);
+      border-radius: 50%;
+    }
+  }
+  &__icon {
+    display: inline-block;
+    position: relative;
+    margin-right: 9px;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform:translate(-50%, -50%);
+    }
+  }
+  &__link {
+    font-size: $font-size-link;
+    line-height: $line-height-link;
+    font-weight: $font-weight-semibold;
+    color: $color-white;
+  }
+  &__btn {
+    grid-column: 12;
+    grid-row: 2;
+    margin-left: -9px;
+  }
+  &__menu-about{
+    grid-column: 1/3;
+    grid-row: 3;
+    margin-top: 41px;
+    font-size: $font-size-link;
+    line-height: $line-height-link;
+    font-weight: $font-weight-regular;
+    color: $color-white;
+    width: 215px;
+    height: 304px;
+  }
+  &__menu-services{
+    grid-column: 4/6;
+    grid-row: 3;
+    margin-top: 41px;
+    font-size: $font-size-link;
+    line-height: $line-height-link;
+    font-weight: $font-weight-regular;
+    color: $color-white;
+    width: 190px;
+    height: 226px;
+  }
+  .menu-about {
+    &__header {
+    font-size: $font-size-main-text;
+    line-height: $line-height-main-text;
+    font-weight:$font-weight-semibold;
+    color: $color-text2;
+    }
+    &__list {
+      margin-top: 10px;
+    }
+  }
+  .menu-services {
+    &__header {
+    font-size: $font-size-main-text;
+    line-height: $line-height-main-text;
+    font-weight:$font-weight-semibold;
+    color: $color-text2;
+    }
+    &__list {
+      margin-top: 10px;
+    }
+    &__item {
+      &_second {
+        margin-top: 3px;
+      }
+      &_third {
+        margin-top: 4px;
+      }
+      &_fourth {
+        margin-top: 2px;
+      }
+      &_fifth {
+        margin-top: 4px;
+      }
+      &_sixth {
+        margin-top: 3px;
+      }
+      &_seventh {
+        margin-top: 3px;
+      }
+    }
+  }
+  &__hr {
+    grid-column: 1/12;
+    grid-row: 4;
+    width: 1180px;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    opacity: 0.2;
+  }
+  &__policy {
+    grid-column: 10/12;
+    grid-row: 4;
+    width: 207px;
+    margin-left: 73px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: $font-weight-regular;
+    color: $color-text2;
+    opacity: 0.5;
+  }
+  &__copyrights {
+    grid-column: 1/6;
+    grid-row: 4;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: $font-weight-regular;
+    color: $color-text2;
+    opacity: 0.5;
+  }
+}
+

@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/_includes/_cms.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1658214245147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1658239002801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <section class=\"cms\">\r\n   <div class=\"container\">\r\n     <h2 class=\"cms__title\">Хостинг с поддержкой любой CMS</h2>\r\n-    <div class=\"cms__descr\">На нашем виртуальном хостинге вы сможете разместить сайт на любой CMS, <br> а также установить в два клика любую популярную систему управлению сайтом</div>\r\n+    <div class=\"cms__descr\">На нашем виртуальном хостинге вы сможете разместить сайт на <span>любой CMS, <br> а также установить в два клика любую популярную систему управлению сайтом</div>\r\n     <div class=\"row row_first\">\r\n       <div class=\"cms__logo\">\r\n         <img src=\"../img/cms/1c.png\" alt=\"1c\">\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1658239060840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <section class=\"cms\">\r\n   <div class=\"container\">\r\n     <h2 class=\"cms__title\">Хостинг с поддержкой любой CMS</h2>\r\n-    <div class=\"cms__descr\">На нашем виртуальном хостинге вы сможете разместить сайт на <span>любой CMS, <br> а также установить в два клика любую популярную систему управлению сайтом</div>\r\n+    <div class=\"cms__descr\">На нашем виртуальном хостинге вы сможете разместить сайт на <span class=\"cms__descr_bold\">любой CMS</span>, <br> а также установить в два клика любую популярную систему управлению сайтом</div>\r\n     <div class=\"row row_first\">\r\n       <div class=\"cms__logo\">\r\n         <img src=\"../img/cms/1c.png\" alt=\"1c\">\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1658239869367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,18 +36,18 @@\n         <img src=\"../img/cms/phpBB.png\" alt=\"phpBB\">\r\n       </div>\r\n     </div>\r\n     <div class=\"row row_third\">\r\n-      <div class=\"cms__logo\">\r\n+      <div class=\"cms__logo shopScript\">\r\n         <img src=\"../img/cms/shop_script.png\" alt=\"shopScript\">\r\n       </div>\r\n-      <div class=\"cms__logo\">\r\n+      <div class=\"cms__logo dle\">\r\n         <img src=\"../img/cms/DLE.png\" alt=\"DLE\">\r\n       </div>\r\n-      <div class=\"cms__logo\">\r\n+      <div class=\"cms__logo hostCMS\">\r\n         <img src=\"../img/cms/host_cms.png\" alt=\"hostCMS\">\r\n       </div>\r\n-      <div class=\"cms__logo\">\r\n+      <div class=\"cms__logo prestaShop\">\r\n         <img src=\"../img/cms/prestashop.png\" alt=\"prestaShop\">\r\n       </div>\r\n     </div>\r\n   </div>\r\n"
+                }
+            ],
+            "date": 1658214245147,
+            "name": "Commit-0",
+            "content": "<section class=\"cms\">\r\n  <div class=\"container\">\r\n    <h2 class=\"cms__title\">Хостинг с поддержкой любой CMS</h2>\r\n    <div class=\"cms__descr\">На нашем виртуальном хостинге вы сможете разместить сайт на любой CMS, <br> а также установить в два клика любую популярную систему управлению сайтом</div>\r\n    <div class=\"row row_first\">\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/1c.png\" alt=\"1c\">\r\n      </div>\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/WordPress.png\" alt=\"wp\">\r\n      </div>\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/joomla.png\" alt=\"joomla\">\r\n      </div>\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/modx.png\" alt=\"modx\">\r\n      </div>\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/open_cart.png\" alt=\"open cart\">\r\n      </div>\r\n    </div>\r\n    <div class=\"row row_second\">\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/umi.png\" alt=\"umi\">\r\n      </div>\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/drupal.png\" alt=\"drupal\">\r\n      </div>\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/instant.png\" alt=\"instant\">\r\n      </div>\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/netcat.png\" alt=\"netcat\">\r\n      </div>\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/phpBB.png\" alt=\"phpBB\">\r\n      </div>\r\n    </div>\r\n    <div class=\"row row_third\">\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/shop_script.png\" alt=\"shopScript\">\r\n      </div>\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/DLE.png\" alt=\"DLE\">\r\n      </div>\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/host_cms.png\" alt=\"hostCMS\">\r\n      </div>\r\n      <div class=\"cms__logo\">\r\n        <img src=\"../img/cms/prestashop.png\" alt=\"prestaShop\">\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>"
+        }
+    ]
+}

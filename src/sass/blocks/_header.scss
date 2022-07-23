@@ -1,0 +1,105 @@
+
+.header {
+  position: relative;
+  display: grid;
+  grid-template-rows: 111px 64px;
+  background-color: $color-text;
+  &__top {
+    align-self: center;
+  }
+  .logo {
+    &__link {
+      cursor: pointer;
+    }
+  }
+  &__logo {
+    grid-column: 1/2;
+    margin-left: 11px;
+    width: 143px;
+    height: 88.06px;
+  }
+  &__contacts {
+    grid-column: 5/6;
+    flex-direction: column;
+    width: 178px;
+    height: 87px;
+  }
+  &__phone , &__mail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__mail {
+    margin-top: 14px;
+  }
+  &__icon {
+    display: inline-block;
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform:translate(-50%, -50%);
+    }
+}
+  &__link {
+    margin-left: 8px;
+    width: 142px;
+    color: $color-white;
+    text-decoration: none;
+    font-size: $font-size-mini-text;
+    line-height: $line-height-mini-text;
+  }
+  &__btn {
+    margin-right: 36px;
+  }
+  &__support {
+    height: 21px;
+    color: $color-white;
+    text-align: end;
+    &-text {
+      margin-right: 10px;
+      height: 21px;
+      font-size: 14px;
+      font-weight: 200;
+      vertical-align: top;
+      font-style: italic;
+    }
+    &-nums {
+      display: inline-block;
+      margin-top: -3px;
+      vertical-align: top;
+      height: 21px;
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 300;
+      font-style: italic;
+    }
+  }
+  &__account {
+    width: 311px;
+    grid-column: 9/12;
+    margin-left: 69px;
+    display: flex;
+    align-items: center;
+    &-btn {
+      position: relative;
+      display: inline-block;
+      width: 44px;
+      height: 44px;
+      background-color: $color-blue;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 100%;
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}

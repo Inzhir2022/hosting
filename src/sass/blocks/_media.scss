@@ -1,0 +1,1053 @@
+@media(max-width: 1300px) {
+  .header__btn {
+    margin-right: 10px;
+  }
+  .btn.promo__btn {
+    margin-left: 140px;
+  }
+  .promo__title {
+    z-index: 2;
+  }
+  .promo__label-text {
+    left: 75px;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 930px;
+    grid-template-columns: repeat(12, 63.75px);
+    column-gap: 15px;
+  }
+  .header {
+    &__top {
+      padding: 0 30px;
+      .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+    &__logo {
+      margin: 20px auto 0;
+      width: 120px;
+      img {
+        width: 120px;
+      }
+    }
+    &__account {
+      margin: 20px auto;
+      width: 260px;
+    }
+    &__btn {
+      width: 170px;
+      height: 38px;
+      font-size: 16px;
+    }
+    .menu {
+      &__list {
+        width: 930px;
+      }
+      &__item {
+        font-size: 18px;
+        &_first {
+          &::after {
+            right: -50px;
+          }
+        }
+        &_second {
+          &::after {
+            left: 67px;
+          }
+        }
+        &_third {
+          &::after {
+            left: 246px;
+          }
+        }
+        &_fourth {
+          &::after {
+            left: 67px;
+          }
+        }
+      }
+    }
+  }
+  .promo {
+    position: relative;
+    padding: 0 30px;
+    min-height: 430px;
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__title {
+      width: 930px;
+      font-size: 65px;
+      text-align: center;
+    }
+    &__description {
+      width: 930px;
+      margin: 17px 0 20px;
+    }
+    &__label {
+      width: 320px;
+      text-align: start;
+      &-text {
+        font-size: 18px;
+      }
+      &-bg {
+        width: 330px;
+      }
+    }
+    &__img {
+      right: 0;
+      img {
+        object-fit: cover;
+        width: 600px;
+      }
+    }
+    &__btn {
+      margin-top: 36px;
+      margin-left: 140px;
+    }
+  }
+  .tariffs {
+    padding: 0 30px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    &__title {
+      margin-top: 60px;
+      width: 930px;
+      text-align: center;
+    }
+    .card {
+      &__body {
+        margin-top: 20px;
+      }
+      &__descr {
+        margin: 20px auto 0;
+      }
+    }
+    &__link-more {
+      margin: 30px auto 0;
+    }
+  }
+  .bonus {
+    padding-left: 30px;
+    padding-right: 30px;
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__img {
+      width: 400px;
+      img {
+        width: 100%;
+      }
+    }
+    &__title {
+      margin: 45px 0;
+      width: 100%;
+      text-align: center;
+    }
+    &__list {
+      width: 400px;
+    }
+    &__item {
+      margin: 0 0 30px 15px;
+      width: 95%;
+      font-size: 18px;
+      &::before {
+        left: -35px;
+      }
+    }
+  }
+  .cms {
+    padding-left: 30px;
+    padding-right: 30px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    &__title {
+      width: 930px;
+      text-align: center;
+    }
+    &__descr {
+      margin-top: 40px;
+      width: 930px;
+    }
+    .row {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      &_second {
+        margin-top: 35px;
+      }
+      &_third {
+        margin-top: 35px;
+        .shopScript {
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        .dle {
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        .hostCMS {
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        .prestaShop {
+          margin: 0;
+          margin-bottom: 0;
+        }
+      }
+    }
+    &__logo {
+      margin-bottom: 10px;
+    }
+  }
+  .ssl {
+    padding-left: 30px;
+    padding-right: 30px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    &__title {
+      width: 930px;
+  }
+  &__descr {
+    margin-top: 45px;
+    width: 930px;
+    text-align: justify;
+  }
+  &__btn {
+    align-self: flex-end;
+    width: 290px;
+    font-size: 16px;
+    }
+  }
+  .domains {
+    padding-left: 30px;
+    padding-right: 30px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    &__title {
+      width: 930px;
+    }
+    &__descr {
+      margin-top: 25px;
+      width: 930px;
+      text-align: justify;
+    }
+    &__btn {
+      width: 80%;
+      margin-bottom: 15px;
+    }
+    .ru, .su, .net, .biz, .moscow, .rf, .com, .org, .info, .msc {
+      margin:0 10px;
+    }
+  }
+
+  .footer {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 45px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    &__minitext {
+      width: 100%;
+    }
+    &__contacts {
+      margin: 30px 0 0 0;
+    }
+    &__social {
+      margin: 30px 0 0 0;
+    }
+    &__btn {
+      margin: 15px 0 0 0;
+    }
+    &__hr {
+      margin-top: 20px;
+    }
+    &__policy {
+      margin-left: 0;
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 718px;
+    grid-template-columns: repeat (12, 50.67px);
+    column-gap: 10px;
+  }
+  .header {
+    grid-template-rows: auto;
+    &__top {
+      padding: 0 15px;
+    }
+    &__logo {
+      margin: 20px auto 0;
+    }
+    &__account {
+      width: 260px;
+      &-btn {
+        width: 38px;
+        height: 38px;
+        img {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    &__btn {
+      width: 170px;
+      height: 38px;
+      font-size: 16px;
+    }
+    .menu {
+      &__list {
+        width: 718px;
+      }
+      &__item {
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+  .promo {
+    padding: 0 15px;
+    &__title {
+      margin-top: 6px;
+      width: 718px;
+      font-size: 54px;
+    }
+    &__description {
+      width: 718px;
+      margin: 0 20px;
+    }
+    &__btn {
+      left: 0;
+      margin-top: 49px;
+    }
+    &__img {
+      width: 450px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .tariffs {
+    padding: 0 15px;
+    &__title {
+      margin-top: 30px;
+      font-size: 38px;
+    }
+    &__text {
+      margin-top: 25px;
+      font-size: 19px;
+      text-align: justify;
+    }
+    .card {
+      &__body {
+        margin-top: 20px;
+      }
+      &__descr {
+        margin: 20px auto 0;
+        font-size: 19px;
+        line-height: 25px;
+      }
+    }
+    &__link-more {
+      margin: 30px auto 0;
+    }
+  }
+  .cms {
+    padding: 45px 15px;
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__title {
+      width:718px;
+      font-size: 38px;
+      text-align: center;
+    }
+    &__descr {
+      margin-top: 30px;
+      width: 718px;
+      font-size: 19px;
+    }
+    .row {
+      flex-wrap: wrap;
+      align-items: center;
+      width: 718px;
+      &_second {
+        margin-top: 30px;
+      }
+      &_third {
+        margin-top: 30px;
+    }
+  }
+  .ssl {
+    padding: 45px 15px;
+    .container {
+      align-items: center;
+    }
+    &__title {
+      width: 718px;
+      font-size: 38px;
+    }
+  &__descr {
+    margin-top: 45px;
+    width: 718px;
+    font-size: 19px;
+    text-align: justify;
+  }
+}
+  .domains {
+    padding: 45px 15px;
+    &__title {
+      width: 718px;
+      font-size: 38px;
+    }
+    &__descr {
+      margin-top: 35px;
+      width: 718px;
+      font-size: 19px;
+      text-align: justify;
+    }
+    &__btn {
+      width: 90%;
+      font-size: 14px;
+    }
+    &__item {
+      margin: 15px 0 10px 0;
+    }
+  }
+
+  .footer {
+    padding: 40px 15px 0;
+    margin-top: 45px;
+      align-items: center;
+    }
+    &__minitext {
+      width: 100%;
+      text-align: justify;
+    }
+    &__contacts {
+      margin: 30px 0 0 0;
+    }
+    &__social {
+      margin: 30px 0 0 0;
+    }
+    &__btn {
+      margin: 15px 0 0 0;
+    }
+    &__policy {
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 737px;
+    grid-template-columns: repeat(12, 61.42px);
+    column-gap: 10px;
+  }
+  .header {
+    grid-template-rows: auto;
+    &__top {
+      padding: 45px 15px 10px;
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        }
+      }
+    &__logo {
+      margin: 20px auto 0;
+      width: 120px;
+      img {
+        width: 120px;
+      }
+    }
+    &__contacts {
+      margin-top: 62px;
+    }
+    &__support-text {
+      display: none;
+    }
+    &__account {
+      margin: 20px auto;
+      width: 260px;
+      &-btn {
+        width: 38px;
+        height: 38px;
+        img {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    &__btn {
+      width: 170px;
+      height: 38px;
+      font-size: 16px;
+    }
+    &__menu {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: $color-text;
+    z-index: 5;
+}
+    .menu__list{
+      position: fixed;
+      top: 0;
+      left: -100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      height: 100vh;
+      padding: 20px 15px;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 10;
+      transition: 0.6s all;
+      &_active {
+        left: 0;
+      }
+    }
+    .menu__link {
+      color: $color-white;
+    }
+    .burger {
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 30px;
+      height: 15px;
+      cursor: pointer;
+      span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: $color-white;
+        margin-bottom: 4px;
+        transition: 0.5s all;
+      }
+      &_active span {
+        margin-bottom: -2px;
+        &:nth-child(1) {
+          transform: translateY(3px) rotate(-45deg);
+        }
+        &:nth-child(2) {
+          display: none;
+        }
+        &:nth-child(3) {
+          transform: translateY(3px) rotate(45deg);
+        }
+      }
+    }
+  } 
+  .promo {
+    padding: 0 15px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    &__title {
+      width: 100%;
+      font-size: 42px;
+      line-height: 54px;
+      text-align: center;
+    }
+    &__description {
+      width: 100%;
+      margin: 23px 0 20px;
+    }
+    &_wrapper {
+      bottom: 36px;
+    }
+    &__label {
+      width: 320px;
+      text-align: start;
+      &-text {
+        font-size: 18px;
+      }
+      &-bg {
+        width: 330px;
+      }
+      img {
+        display: none;
+      }
+    }
+    &__img {
+      img {
+        object-fit: cover;
+      }
+    }
+    .btn.promo__btn {
+      margin-left: 0;
+      margin-top: 159px;
+      align-self: flex-start;
+    }
+  }
+  .tariffs {
+    padding: 0 15px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    &__title {
+      margin-top: 25px;
+      font-size: 30px;
+    }
+    &__text {
+      margin-top: 25px;
+      font-size: 16px;
+      text-align: justify;
+    }
+    .card {
+      &__body {
+        margin-top: 20px;
+      }
+      &__descr {
+        margin: 20px auto 0;
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+    &__link-more {
+      margin: 30px auto 0;
+    }
+  }
+  .bonus {
+    padding: 45px 15px;
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__img {
+      width: 300px;
+      img {
+        width: 100%;
+      }
+    }
+    &__title {
+      margin: 45px 0;
+      width: 100%;
+      text-align: center;
+    }
+    &__list {
+      width: 300px;
+    }
+    &__item {
+      margin: 0 0 30px 15px;
+      width: 95%;
+      font-size: 18px;
+      &::before {
+        left: -35px;
+      }
+    }
+  }
+  .cms {
+    padding: 45px 15px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    &__title {
+      width: 100%;
+      font-size: 30px;
+      line-height: 42px;
+      text-align: center;
+    }
+    &__descr {
+      margin-top: 40px;
+      width: 100%;
+      font-size: 16px;
+    }
+    .row {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      &_second {
+        margin-top: 35px;
+      }
+      &_third {
+        margin-top: 35px;
+        .shopScript {
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        .dle {
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        .hostCMS {
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        .prestaShop {
+          margin: 0;
+          margin-bottom: 0;
+        }
+      }
+    }
+    &__logo {
+      margin-bottom: 10px;
+    }
+  }
+  .ssl {
+    padding: 45px 15px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__title {
+      width: 100%;
+      font-size: 30px;
+      line-height: 42px;
+  }
+  &__descr {
+    margin-top: 45px;
+    width: 100%;
+    font-size: 16px;
+    text-align: justify;
+  }
+  &__btn {
+    margin-top: 45px;
+    margin-left: 0;
+    width: 290px;
+    font-size: 16px;
+    }
+  }
+  .domains {
+    padding: 45px 15px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    &__title {
+      width: 100%;
+      font-size: 30px;
+      line-height: 42px;
+    }
+    &__descr {
+      margin-top: 25px;
+      width: 100%;
+      font-size: 16px;
+      text-align: justify;
+    }
+    &__btn {
+      width: 100%;
+      font-size: 14px;
+    }
+    &__item {
+      margin: 15px 0 10px 0;
+    }
+    .ru {
+      margin-top: 0;
+    }
+    .rf, .com, .org, .info, .msc {
+      margin-top: -14px;
+    }
+  }
+
+  .footer {
+    padding: 40px 15px 0;
+    margin-top: 45px;
+    &__minitext {
+      width: 100%;
+      text-align: justify;
+    }
+    &__contacts {
+      margin: 30px 0 0 0;
+    }
+    &__social {
+      margin: 30px 0 0 0;
+    }
+    &__btn {
+      margin: 15px 0 0 0;
+    }
+    &__policy {
+      margin-left: 0;
+    }
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    max-width: 300px;
+    grid-template-columns: repeat(12, 15.83px);
+    column-gap: 10px;
+  }
+  .header {
+    &__top {
+      padding: 0 10px;
+    }
+    &__logo {
+      margin-top: 68px;
+      width: 100px;
+      img {
+        width: 100%;
+      }
+    }
+    &__account {
+      margin: 20px auto;
+      width: 245px;
+      &-btn {
+        width: 38px;
+        height: 38px;
+        img {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    &__btn {
+      width: 170px;
+      height: 38px;
+      font-size: 16px;
+    }
+  }
+  .promo {
+    padding: 0 10px;
+    &__title {
+      width: 300px;
+      font-size: 34px;
+      line-height: 54px;
+      text-align: center;
+    }
+    &__description {
+      width: 300px;
+      margin: 17px 0 20px;
+      font-size: 16px;
+    }
+    &__wrapper {
+      width: 320px;
+    }
+    &__label {
+      width: 310px;
+      text-align: start;
+      &-text {
+        font-size: 18px;
+      }
+      &-bg {
+        width: 320px;
+      }
+    }
+    &__img {
+      display: none;
+    }
+    .btn.promo__btn {
+      align-self: flex-start;
+    }
+  }
+  .tariffs {
+    padding: 0 10px;
+    &__title {
+      width: 300px;
+      margin-top: 25px;
+      font-size: 30px;
+    }
+    &__text {
+      width: 300px;
+      margin-top: 25px;
+      font-size: 16px;
+      text-align: justify;
+    }
+    .card {
+      &__body {
+        margin-top: 20px;
+      }
+      &__descr {
+        margin: 20px auto 0;
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+    &__link-more {
+      margin: 30px auto 0;
+    }
+  }
+  .bonus {
+    padding: 45px 10px;
+    &__img {
+      width: 300px;
+      img {
+        width: 100%;
+      }
+    }
+    &__title {
+      margin: 45px 0;
+      width: 300px;
+      text-align: center;
+    }
+    &__list {
+      width: 300px;
+    }
+    &__item {
+      margin: 0 0 30px 30px;
+      width: 90%;
+      font-size: 18px;
+      &::before {
+        left: -34px;
+      }
+    }
+  }
+  .cms {
+    padding: 45px 10px;
+    &__title {
+      width: 300px;
+      font-size: 30px;
+      line-height: 42px;
+      text-align: center;
+    }
+    &__descr {
+      margin-top: 40px;
+      width: 300px;
+      font-size: 16px;
+    }
+    .row {
+      width: 300px;
+      &_second {
+        margin-top: 35px;
+      }
+      &_third {
+        margin-top: 35px;
+        .shopScript {
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        .dle {
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        .hostCMS {
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        .prestaShop {
+          margin: 0;
+          margin-bottom: 0;
+        }
+      }
+    }
+    &__logo {
+      margin-bottom: 10px;
+    }
+  }
+  .ssl {
+    padding: 45px 10px;
+    .container {
+      display: flex;
+    }
+    &__title {
+      width: 100%;
+      font-size: 30px;
+      line-height: 42px;
+  }
+  &__descr {
+    margin-top: 45px;
+    width: 100%;
+    font-size: 16px;
+    text-align: justify;
+  }
+  &__btn {
+    margin-top: 45px;
+    margin-left: 0;
+    width: 290px;
+    font-size: 16px;
+    }
+  }
+  .domains {
+    padding: 45px 10px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    &__title {
+      width: 100%;
+      font-size: 30px;
+      line-height: 42px;
+    }
+    &__descr {
+      margin-top: 25px;
+      width: 100%;
+      font-size: 16px;
+      text-align: justify;
+    }
+    &__btn {
+      width: 100%;
+      font-size: 14px;
+    }
+    &__item {
+      margin: 15px 0 10px 0;
+    }
+    .ru, .su, .net, .biz, .moscow, .rf, .com, .org, .info, .msc {
+      margin:0;
+    }
+  }
+
+  .footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 45px;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    &__minitext {
+      width: 100%;
+      text-align: justify;
+    }
+    &__contacts {
+      margin: 30px 0 0 0;
+    }
+    &__social {
+      margin: 30px 0 0 0;
+    }
+    &__btn {
+      margin: 15px 0 0 0;
+    }
+    &__policy {
+      margin-left: 0;
+    }
+  }
+}

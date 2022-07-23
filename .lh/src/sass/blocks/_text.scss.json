@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/sass/blocks/_text.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1658126823548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1658126876328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n .minitext {\r\n-  \r\n+  font-size: $font-size-mini-text;\r\n+  line-height: $line-height-mini-text;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658126897986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n .minitext {\r\n   font-size: $font-size-mini-text;\r\n   line-height: $line-height-mini-text;\r\n+  font-weight: $font-weight-regular;\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1658126823548,
+            "name": "Commit-0",
+            "content": ".minitext {\r\n  \r\n}"
+        }
+    ]
+}

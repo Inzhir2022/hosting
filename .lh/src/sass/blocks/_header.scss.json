@@ -1,0 +1,618 @@
+{
+    "sourceFile": "src/sass/blocks/_header.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 150,
+            "patches": [
+                {
+                    "date": 1657879047763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1657879075023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .header {\r\n-  background-color: ;\r\n+  background-color: $color-text;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657879184032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,6 @@\n .header {\r\n   background-color: $color-text;\r\n+  &__logo {\r\n+    grid-column: 1;\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657879318922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,8 @@\n   background-color: $color-text;\r\n   &__logo {\r\n     grid-column: 1;\r\n   }\r\n+  &__contacts {\r\n+    grid-column: 5;\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657879361903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,8 @@\n   }\r\n   &__contacts {\r\n     grid-column: 5;\r\n   }\r\n+  &__account {\r\n+    grid-column: 9;\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657879510884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .header {\r\n   background-color: $color-text;\r\n+  align-content: center;\r\n   &__logo {\r\n     grid-column: 1;\r\n   }\r\n   &__contacts {\r\n"
+                },
+                {
+                    "date": 1657879614937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n .header {\r\n   background-color: $color-text;\r\n-  align-content: center;\r\n+  .container {\r\n+    align-items: center;\r\n+  }\r\n   &__logo {\r\n     grid-column: 1;\r\n   }\r\n   &__contacts {\r\n"
+                },
+                {
+                    "date": 1657879717505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .header {\r\n+  padding: 12px 0;\r\n   background-color: $color-text;\r\n   .container {\r\n     align-items: center;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657879931186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .header {\r\n-  padding: 12px 0;\r\n   background-color: $color-text;\r\n   .container {\r\n+    padding: 12px 0;\r\n     align-items: center;\r\n   }\r\n   &__logo {\r\n     grid-column: 1;\r\n"
+                },
+                {
+                    "date": 1657880007330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n .header {\r\n   background-color: $color-text;\r\n   .container {\r\n-    padding: 12px 0;\r\n     align-items: center;\r\n   }\r\n   &__logo {\r\n     grid-column: 1;\r\n"
+                },
+                {
+                    "date": 1657880041233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,10 @@\n     grid-column: 1;\r\n   }\r\n   &__contacts {\r\n     grid-column: 5;\r\n+    display: flex;\r\n+    flex-direction: column;\r\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657880103931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,10 @@\n   &__contacts {\r\n     grid-column: 5;\r\n     display: flex;\r\n     flex-direction: column;\r\n+    width: 178px;\r\n+    height: 87px;\r\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657880314170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,12 @@\n     flex-direction: column;\r\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n+  &__icon {\r\n+    display: inline-block;\r\n+    \r\n+  }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657880345324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,11 @@\n     height: 87px;\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n-    \r\n+    width: 28px;\r\n+    height: 28px;\r\n+    background-color: ;\r\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657880377087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,10 @@\n   &__icon {\r\n     display: inline-block;\r\n     width: 28px;\r\n     height: 28px;\r\n-    background-color: ;\r\n+    background: #FFFFFF;\r\n+    opacity: 0.2;\r\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657880458051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n     width: 28px;\r\n     height: 28px;\r\n     background: #FFFFFF;\r\n     opacity: 0.2;\r\n+    border-radius: 100%;\r\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657880499213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,10 +16,9 @@\n   &__icon {\r\n     display: inline-block;\r\n     width: 28px;\r\n     height: 28px;\r\n-    background: #FFFFFF;\r\n-    opacity: 0.2;\r\n+    background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n"
+                },
+                {
+                    "date": 1657880546042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,10 @@\n     height: 87px;\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n+    vertical-align: middle;\r\n+    \r\n     width: 28px;\r\n     height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n"
+                },
+                {
+                    "date": 1657880559713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,10 @@\n     height: 87px;\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n-    vertical-align: middle;\r\n-    \r\n+\r\n+\r\n     width: 28px;\r\n     height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n"
+                },
+                {
+                    "date": 1657880753950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,11 +15,8 @@\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n \r\n-\r\n-    width: 28px;\r\n-    height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n   }\r\n   &__account {\r\n"
+                },
+                {
+                    "date": 1657880778650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,10 @@\n     height: 87px;\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n-\r\n+    width: 28px;\r\n+    height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n   }\r\n   &__account {\r\n"
+                },
+                {
+                    "date": 1657881233182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,12 +12,15 @@\n     flex-direction: column;\r\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n+  &__phone {\r\n+    width: 28px;\r\n+    height: 28px;\r\n+  }\r\n   &__icon {\r\n     display: inline-block;\r\n-    width: 28px;\r\n-    height: 28px;\r\n+    \r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n   }\r\n   &__account {\r\n"
+                },
+                {
+                    "date": 1657881248065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,14 +13,14 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n-    width: 28px;\r\n-    height: 28px;\r\n+    \r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n-    \r\n+    width: 28px;\r\n+    height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n   }\r\n   &__account {\r\n"
+                },
+                {
+                    "date": 1657881317774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,11 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n-    \r\n+    img {\r\n+      padding: ;\r\n+    }\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n     width: 28px;\r\n"
+                },
+                {
+                    "date": 1657881328179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     height: 87px;\r\n   }\r\n   &__phone {\r\n     img {\r\n-      padding: ;\r\n+      padding: 5px;\r\n     }\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n"
+                },
+                {
+                    "date": 1657881387937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,11 @@\n     img {\r\n       padding: 5px;\r\n     }\r\n   }\r\n+  &__mail {\r\n+    padding: ;\r\n+  }\r\n   &__icon {\r\n     display: inline-block;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657881456206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n       padding: 5px;\r\n     }\r\n   }\r\n   &__mail {\r\n-    padding: ;\r\n+    padding: 4px 4px 5px 5px;\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n     width: 28px;\r\n"
+                },
+                {
+                    "date": 1657881472925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,12 @@\n       padding: 5px;\r\n     }\r\n   }\r\n   &__mail {\r\n-    padding: 4px 4px 5px 5px;\r\n+    img {\r\n+      padding: 4px 4px 5px 5px;\r\n+    }\r\n+    \r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n     width: 28px;\r\n"
+                },
+                {
+                    "date": 1657881681002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     height: 87px;\r\n   }\r\n   &__phone {\r\n     img {\r\n-      padding: 5px;\r\n+      padding: 5.83px 5.22px;\r\n     }\r\n   }\r\n   &__mail {\r\n     img {\r\n"
+                },
+                {
+                    "date": 1657881692821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     height: 87px;\r\n   }\r\n   &__phone {\r\n     img {\r\n-      padding: 5.83px 5.22px;\r\n+      padding: 5.83px 5.22px 5.28px ;\r\n     }\r\n   }\r\n   &__mail {\r\n     img {\r\n"
+                },
+                {
+                    "date": 1657881702110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     height: 87px;\r\n   }\r\n   &__phone {\r\n     img {\r\n-      padding: 5.83px 5.22px 5.28px ;\r\n+      padding: 5.83px 5.22px 5.28px 5.51px;\r\n     }\r\n   }\r\n   &__mail {\r\n     img {\r\n"
+                },
+                {
+                    "date": 1657881958981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,19 +12,8 @@\n     flex-direction: column;\r\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n-  &__phone {\r\n-    img {\r\n-      padding: 5.83px 5.22px 5.28px 5.51px;\r\n-    }\r\n-  }\r\n-  &__mail {\r\n-    img {\r\n-      padding: 4px 4px 5px 5px;\r\n-    }\r\n-    \r\n-  }\r\n   &__icon {\r\n     display: inline-block;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657882046328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,8 @@\n     height: 87px;\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n-    width: 28px;\r\n-    height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n   }\r\n   &__account {\r\n"
+                },
+                {
+                    "date": 1657882255327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,10 @@\n     height: 87px;\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n+    width: 28px;\r\n+    height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n   }\r\n   &__account {\r\n"
+                },
+                {
+                    "date": 1657882352136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,8 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__icon {\r\n-    display: inline-block;\r\n     width: 28px;\r\n     height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n"
+                },
+                {
+                    "date": 1657882842292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,11 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__icon {\r\n+    display: flex;\r\n+    justify-content: center;\r\n+    align-items: center;\r\n     width: 28px;\r\n     height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n"
+                },
+                {
+                    "date": 1657883266114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     flex-direction: column;\r\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n-  &__icon {\r\n+  &__phone, &__email {\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n     width: 28px;\r\n"
+                },
+                {
+                    "date": 1657883286913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     flex-direction: column;\r\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n-  &__phone, &__email {\r\n+  &__phone, &__mail {\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n     width: 28px;\r\n"
+                },
+                {
+                    "date": 1657883327100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,11 @@\n     height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n   }\r\n+  &__phone {\r\n+    background: url('../../img/phone.svg');\r\n+  }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657883335972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n   }\r\n   &__phone {\r\n-    background: url('../../img/phone.svg');\r\n+    background: url('../../img/phone.svg') no-repeat;\r\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657883376642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,11 @@\n   }\r\n   &__phone {\r\n     background: url('../../img/phone.svg') no-repeat;\r\n   }\r\n+  &__mail {\r\n+    background: url('../../img/mail.svg');\r\n+  }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657883386658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n   &__phone {\r\n     background: url('../../img/phone.svg') no-repeat;\r\n   }\r\n   &__mail {\r\n-    background: url('../../img/mail.svg');\r\n+    background: url('../../img/mail.svg') no-repeat;\r\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657883436388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,11 +13,9 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone, &__mail {\r\n-    display: flex;\r\n-    justify-content: center;\r\n-    align-items: center;\r\n+    display: inline-block;\r\n     width: 28px;\r\n     height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n"
+                },
+                {
+                    "date": 1657883453310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,8 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone, &__mail {\r\n-    display: inline-block;\r\n     width: 28px;\r\n     height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 100%;\r\n"
+                },
+                {
+                    "date": 1657883558777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,20 +12,8 @@\n     flex-direction: column;\r\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n-  &__phone, &__mail {\r\n-    width: 28px;\r\n-    height: 28px;\r\n-    background-color: rgba(255,255,255,0.2);\r\n-    border-radius: 100%;\r\n-  }\r\n-  &__phone {\r\n-    background: url('../../img/phone.svg') no-repeat;\r\n-  }\r\n-  &__mail {\r\n-    background: url('../../img/mail.svg') no-repeat;\r\n-  }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657883585207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,11 @@\n     flex-direction: column;\r\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n+  &__link {\r\n+    color: $color-white;\r\n+  }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657883621524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n     height: 87px;\r\n   }\r\n   &__link {\r\n     color: $color-white;\r\n+    text-decoration: none;\r\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657883693038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,10 @@\n   }\r\n   &__link {\r\n     color: $color-white;\r\n     text-decoration: none;\r\n+    font-size: $font-size-mini-text;\r\n+    line-height: $line-height-mini-text;\r\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657883903887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,11 @@\n     flex-direction: column;\r\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n+  &__phone {\r\n+    background: url('../../img/phone.svg');\r\n+  }\r\n   &__link {\r\n     color: $color-white;\r\n     text-decoration: none;\r\n     font-size: $font-size-mini-text;\r\n"
+                },
+                {
+                    "date": 1657883923486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n     height: 87px;\r\n   }\r\n   &__phone {\r\n     background: url('../../img/phone.svg');\r\n+    background-color: $color-text2;\r\n   }\r\n   &__link {\r\n     color: $color-white;\r\n     text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1657883949463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,10 @@\n   }\r\n   &__phone {\r\n     background: url('../../img/phone.svg');\r\n     background-color: $color-text2;\r\n+    width: 28px;\r\n+    height: 28px;\r\n   }\r\n   &__link {\r\n     color: $color-white;\r\n     text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1657883959267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n-    background: url('../../img/phone.svg');\r\n+    background: url('../../img/phone.svg') no-repeat;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657883984272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n     background: url('../../img/phone.svg') no-repeat;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n+    border-radius: 100%;\r\n   }\r\n   &__link {\r\n     color: $color-white;\r\n     text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1657884062248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n+    display: flex;\r\n     background: url('../../img/phone.svg') no-repeat;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657884111373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n-    display: flex;\r\n+    display: inline-flex;\r\n     background: url('../../img/phone.svg') no-repeat;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657884131454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,8 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n-    display: inline-flex;\r\n     background: url('../../img/phone.svg') no-repeat;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657884255378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n+    display: flex;\r\n     background: url('../../img/phone.svg') no-repeat;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657884270078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,10 @@\n     height: 87px;\r\n   }\r\n   &__phone {\r\n     display: flex;\r\n+    justify-content: center;\r\n+    align-items: center;\r\n     background: url('../../img/phone.svg') no-repeat;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657884370404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,11 +13,8 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n-    display: flex;\r\n-    justify-content: center;\r\n-    align-items: center;\r\n     background: url('../../img/phone.svg') no-repeat;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657884469136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n-    background: url('../../img/phone.svg') no-repeat;\r\n+    background: url('../../img/phone.svg') no-repeat center center;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n     border-radius: 100%;\r\n"
+                },
+                {
+                    "date": 1657884485561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,8 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n-    background: url('../../img/phone.svg') no-repeat center center;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n     border-radius: 100%;\r\n"
+                },
+                {
+                    "date": 1657884594237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n+    padding: 5px;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n     border-radius: 100%;\r\n"
+                },
+                {
+                    "date": 1657884629972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n+    display: inline-block;\r\n     padding: 5px;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657884654542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n     height: 87px;\r\n   }\r\n   &__phone {\r\n     display: inline-block;\r\n+    margin-right: 8px;\r\n     padding: 5px;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657884703789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n   &__contacts {\r\n     grid-column: 5;\r\n     display: flex;\r\n     flex-direction: column;\r\n-    width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n     display: inline-block;\r\n"
+                },
+                {
+                    "date": 1657884718486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n   &__contacts {\r\n     grid-column: 5;\r\n     display: flex;\r\n     flex-direction: column;\r\n+    width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone {\r\n     display: inline-block;\r\n"
+                },
+                {
+                    "date": 1657884783695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n     height: 28px;\r\n     border-radius: 100%;\r\n   }\r\n   &__link {\r\n+    display: inline-block;\r\n     color: $color-white;\r\n     text-decoration: none;\r\n     font-size: $font-size-mini-text;\r\n     line-height: $line-height-mini-text;\r\n"
+                },
+                {
+                    "date": 1657884800772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,9 @@\n     border-radius: 100%;\r\n   }\r\n   &__link {\r\n     display: inline-block;\r\n+    width: 142px;\r\n     color: $color-white;\r\n     text-decoration: none;\r\n     font-size: $font-size-mini-text;\r\n     line-height: $line-height-mini-text;\r\n"
+                },
+                {
+                    "date": 1657884954223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,17 @@\n     width: 28px;\r\n     height: 28px;\r\n     border-radius: 100%;\r\n   }\r\n+  &__phone {\r\n+    display: inline-block;\r\n+    margin-right: 8px;\r\n+    padding: 5px;\r\n+    background-color: $color-text2;\r\n+    width: 28px;\r\n+    height: 28px;\r\n+    border-radius: 100%;\r\n+  }\r\n   &__link {\r\n     display: inline-block;\r\n     width: 142px;\r\n     color: $color-white;\r\n"
+                },
+                {
+                    "date": 1657885208178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,10 +22,8 @@\n     height: 28px;\r\n     border-radius: 100%;\r\n   }\r\n   &__phone {\r\n-    display: inline-block;\r\n-    margin-right: 8px;\r\n     padding: 5px;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657885220237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     width: 28px;\r\n     height: 28px;\r\n     border-radius: 100%;\r\n   }\r\n-  &__phone {\r\n+  &__phone , &__mail {\r\n     padding: 5px;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657885243068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,10 +29,8 @@\n     height: 28px;\r\n     border-radius: 100%;\r\n   }\r\n   &__link {\r\n-    display: inline-block;\r\n-    width: 142px;\r\n     color: $color-white;\r\n     text-decoration: none;\r\n     font-size: $font-size-mini-text;\r\n     line-height: $line-height-mini-text;\r\n"
+                },
+                {
+                    "date": 1657885269302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,17 +12,8 @@\n     flex-direction: column;\r\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n-  &__phone {\r\n-    display: inline-block;\r\n-    margin-right: 8px;\r\n-    padding: 5px;\r\n-    background-color: $color-text2;\r\n-    width: 28px;\r\n-    height: 28px;\r\n-    border-radius: 100%;\r\n-  }\r\n   &__phone , &__mail {\r\n     padding: 5px;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n"
+                },
+                {
+                    "date": 1657885360298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone , &__mail {\r\n+    display: flex;\r\n     padding: 5px;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657885402495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   &__logo {\r\n     grid-column: 1;\r\n   }\r\n   &__contacts {\r\n-    grid-column: 5;\r\n+    grid-column: 5/6;\r\n     display: flex;\r\n     flex-direction: column;\r\n     width: 178px;\r\n     height: 87px;\r\n"
+                },
+                {
+                    "date": 1657885436013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n     height: 87px;\r\n   }\r\n   &__phone , &__mail {\r\n     display: flex;\r\n+    justify-content: space-between;\r\n     padding: 5px;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657885449810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     height: 87px;\r\n   }\r\n   &__phone , &__mail {\r\n     display: flex;\r\n-    justify-content: space-between;\r\n+    margin-right: 8px;\r\n     padding: 5px;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657885461866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,10 +13,8 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone , &__mail {\r\n-    display: flex;\r\n-    margin-right: 8px;\r\n     padding: 5px;\r\n     background-color: $color-text2;\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657885497823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     height: 87px;\r\n   }\r\n   &__phone , &__mail {\r\n     padding: 5px;\r\n-    background-color: $color-text2;\r\n+    background-color: rgba(255,255,255,0.2);\r\n     width: 28px;\r\n     height: 28px;\r\n     border-radius: 100%;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657885542519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n     width: 178px;\r\n     height: 87px;\r\n   }\r\n   &__phone , &__mail {\r\n+    display: flex;\r\n     padding: 5px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     width: 28px;\r\n     height: 28px;\r\n"
+                },
+                {
+                    "date": 1657885643647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n     height: 28px;\r\n     border-radius: 100%;\r\n   }\r\n   &__link {\r\n+    width: 142px;\r\n     color: $color-white;\r\n     text-decoration: none;\r\n     font-size: $font-size-mini-text;\r\n     line-height: $line-height-mini-text;\r\n"
+                },
+                {
+                    "date": 1657885836231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n     height: 28px;\r\n     border-radius: 100%;\r\n   }\r\n   &__link {\r\n+    margin-left: 8px;\r\n     width: 142px;\r\n     color: $color-white;\r\n     text-decoration: none;\r\n     font-size: $font-size-mini-text;\r\n"
+                },
+                {
+                    "date": 1657887887559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,13 +14,9 @@\n     height: 87px;\r\n   }\r\n   &__phone , &__mail {\r\n     display: flex;\r\n-    padding: 5px;\r\n-    background-color: rgba(255,255,255,0.2);\r\n-    width: 28px;\r\n-    height: 28px;\r\n-    border-radius: 100%;\r\n+\r\n   }\r\n   &__link {\r\n     margin-left: 8px;\r\n     width: 142px;\r\n"
+                },
+                {
+                    "date": 1657888805237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,6 +26,11 @@\n     line-height: $line-height-mini-text;\r\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n+    &-btn {\r\n+      background-color: $color-blue;\r\n+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n+      border-radius: 100%;\r\n+    }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657888838605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,10 @@\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n     &-btn {\r\n+      width: 44px;\r\n+      height: 44px;\r\n       background-color: $color-blue;\r\n       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n       border-radius: 100%;\r\n     }\r\n"
+                },
+                {
+                    "date": 1657888937785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,10 @@\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n     &-btn {\r\n+      display: inline-block;\r\n+      text-align: center;\r\n       width: 44px;\r\n       height: 44px;\r\n       background-color: $color-blue;\r\n       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n"
+                },
+                {
+                    "date": 1657889005999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,14 +27,21 @@\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n     &-btn {\r\n+      position: relative;\r\n       display: inline-block;\r\n       text-align: center;\r\n       width: 44px;\r\n       height: 44px;\r\n       background-color: $color-blue;\r\n       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n       border-radius: 100%;\r\n+      img {\r\n+        position: absolute;\r\n+        top: 50%;\r\n+        transform: translateY(-50%);\r\n+\r\n+      }\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657889022753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,8 @@\n     grid-column: 9;\r\n     &-btn {\r\n       position: relative;\r\n       display: inline-block;\r\n-      text-align: center;\r\n       width: 44px;\r\n       height: 44px;\r\n       background-color: $color-blue;\r\n       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n"
+                },
+                {
+                    "date": 1657889046947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,10 @@\n       border-radius: 100%;\r\n       img {\r\n         position: absolute;\r\n         top: 50%;\r\n-        transform: translateY(-50%);\r\n+        left: 50%;\r\n+        transform: translate(-50%, -50%);\r\n \r\n       }\r\n     }\r\n   }\r\n"
+                },
+                {
+                    "date": 1657889101312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,10 @@\n     line-height: $line-height-mini-text;\r\n   }\r\n   &__account {\r\n     grid-column: 9;\r\n+    display: flex;\r\n+    align-items: center;\r\n     &-btn {\r\n       position: relative;\r\n       display: inline-block;\r\n       width: 44px;\r\n"
+                },
+                {
+                    "date": 1657889147794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,11 @@\n   &__account {\r\n     grid-column: 9;\r\n     display: flex;\r\n     align-items: center;\r\n+    &__btn {\r\n+      margin-right: 36px;\r\n+    }\r\n     &-btn {\r\n       position: relative;\r\n       display: inline-block;\r\n       width: 44px;\r\n"
+                },
+                {
+                    "date": 1657889180535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,11 +28,8 @@\n   &__account {\r\n     grid-column: 9;\r\n     display: flex;\r\n     align-items: center;\r\n-    &__btn {\r\n-      margin-right: 36px;\r\n-    }\r\n     &-btn {\r\n       position: relative;\r\n       display: inline-block;\r\n       width: 44px;\r\n"
+                },
+                {
+                    "date": 1657889211397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,11 @@\n     text-decoration: none;\r\n     font-size: $font-size-mini-text;\r\n     line-height: $line-height-mini-text;\r\n   }\r\n+  &__btn {\r\n+    margin-right: 36px;\r\n+  }\r\n   &__account {\r\n     grid-column: 9;\r\n     display: flex;\r\n     align-items: center;\r\n@@ -41,9 +44,8 @@\n         position: absolute;\r\n         top: 50%;\r\n         left: 50%;\r\n         transform: translate(-50%, -50%);\r\n-\r\n       }\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657889371757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n   &__btn {\r\n     margin-right: 36px;\r\n   }\r\n   &__account {\r\n-    grid-column: 9;\r\n+    grid-column: 9/12;\r\n     display: flex;\r\n     align-items: center;\r\n     &-btn {\r\n       position: relative;\r\n"
+                },
+                {
+                    "date": 1657890826060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+@import 'blocks/promo.scss';\r\n .header {\r\n   background-color: $color-text;\r\n   .container {\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1657893438588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,12 +8,10 @@\n     grid-column: 1;\r\n   }\r\n   &__contacts {\r\n     grid-column: 5/6;\r\n-    display: flex;\r\n     flex-direction: column;\r\n     width: 178px;\r\n-    height: 87px;\r\n   }\r\n   &__phone , &__mail {\r\n     display: flex;\r\n \r\n"
+                },
+                {
+                    "date": 1657946744727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   .container {\r\n     align-items: center;\r\n   }\r\n   &__logo {\r\n-    grid-column: 1;\r\n+    grid-column: 1/2;\r\n   }\r\n   &__contacts {\r\n     grid-column: 5/6;\r\n     flex-direction: column;\r\n@@ -28,8 +28,9 @@\n     margin-right: 36px;\r\n   }\r\n   &__account {\r\n     grid-column: 9/12;\r\n+    margin-left: 70px;\r\n     display: flex;\r\n     align-items: center;\r\n     &-btn {\r\n       position: relative;\r\n"
+                },
+                {
+                    "date": 1657946759250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n   &__btn {\r\n     margin-right: 36px;\r\n   }\r\n   &__account {\r\n+    width: 307px;\r\n     grid-column: 9/12;\r\n     margin-left: 70px;\r\n     display: flex;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1657954765054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n @import 'blocks/promo.scss';\r\n .header {\r\n+  display: grid;\r\n+  grid-template-rows: 111px 64px 493px;\r\n   background-color: $color-text;\r\n   .container {\r\n     align-items: center;\r\n   }\r\n"
+                },
+                {
+                    "date": 1657955125380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n     width: 178px;\r\n   }\r\n   &__phone , &__mail {\r\n     display: flex;\r\n+    justify-content: space-between;\r\n \r\n   }\r\n   &__link {\r\n     margin-left: 8px;\r\n"
+                },
+                {
+                    "date": 1657955425858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,18 @@\n   }\r\n   &__phone , &__mail {\r\n     display: flex;\r\n     justify-content: space-between;\r\n+    &-icon {\r\n+      display: inline-block;\r\n+      position: relative;\r\n+    /* text-align: center; */\r\n+      width: 28px;\r\n+      height: 28px;\r\n+      background-color: rgba(255,255,255,0.2);\r\n+      border-radius: 50%;\r\n+}\r\n+    }\r\n \r\n   }\r\n   &__link {\r\n     margin-left: 8px;\r\n"
+                },
+                {
+                    "date": 1657955525399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,18 +16,18 @@\n   }\r\n   &__phone , &__mail {\r\n     display: flex;\r\n     justify-content: space-between;\r\n-    &-icon {\r\n+  }\r\n+  &__icon {\r\n       display: inline-block;\r\n       position: relative;\r\n     /* text-align: center; */\r\n       width: 28px;\r\n       height: 28px;\r\n       background-color: rgba(255,255,255,0.2);\r\n       border-radius: 50%;\r\n }\r\n-    }\r\n \r\n   }\r\n   &__link {\r\n     margin-left: 8px;\r\n"
+                },
+                {
+                    "date": 1657955560347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,15 +18,15 @@\n     display: flex;\r\n     justify-content: space-between;\r\n   }\r\n   &__icon {\r\n-      display: inline-block;\r\n-      position: relative;\r\n+    display: inline-block;\r\n+    position: relative;\r\n     /* text-align: center; */\r\n-      width: 28px;\r\n-      height: 28px;\r\n-      background-color: rgba(255,255,255,0.2);\r\n-      border-radius: 50%;\r\n+    width: 28px;\r\n+    height: 28px;\r\n+    background-color: rgba(255,255,255,0.2);\r\n+    border-radius: 50%;\r\n }\r\n \r\n   }\r\n   &__link {\r\n"
+                },
+                {
+                    "date": 1657955579051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,8 @@\n     height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 50%;\r\n }\r\n-\r\n-  }\r\n   &__link {\r\n     margin-left: 8px;\r\n     width: 142px;\r\n     color: $color-white;\r\n"
+                },
+                {
+                    "date": 1657955648244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,14 @@\n     width: 28px;\r\n     height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 50%;\r\n+    img {\r\n+      position: absolute;\r\n+      top: 50%;\r\n+      left: 50%;\r\n+      transform:translate(-50%, -50%);\r\n+    }\r\n }\r\n   &__link {\r\n     margin-left: 8px;\r\n     width: 142px;\r\n"
+                },
+                {
+                    "date": 1657955684226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,8 @@\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n     position: relative;\r\n-    /* text-align: center; */\r\n     width: 28px;\r\n     height: 28px;\r\n     background-color: rgba(255,255,255,0.2);\r\n     border-radius: 50%;\r\n"
+                },
+                {
+                    "date": 1657955763328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,11 @@\n   }\r\n   &__btn {\r\n     margin-right: 36px;\r\n   }\r\n+  &__support {\r\n+    \r\n+  }\r\n   &__account {\r\n     width: 307px;\r\n     grid-column: 9/12;\r\n     margin-left: 70px;\r\n"
+                },
+                {
+                    "date": 1657955786882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   &__btn {\r\n     margin-right: 36px;\r\n   }\r\n   &__support {\r\n-    \r\n+    color: $color-white;\r\n   }\r\n   &__account {\r\n     width: 307px;\r\n     grid-column: 9/12;\r\n"
+                },
+                {
+                    "date": 1657955913879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,13 @@\n   background-color: $color-text;\r\n   .container {\r\n     align-items: center;\r\n   }\r\n+  .logo {\r\n+    &__link {\r\n+      cursor: pointer;\r\n+    }\r\n+  }\r\n   &__logo {\r\n     grid-column: 1/2;\r\n   }\r\n   &__contacts {\r\n"
+                },
+                {
+                    "date": 1657960344351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,8 +49,11 @@\n     margin-right: 36px;\r\n   }\r\n   &__support {\r\n     color: $color-white;\r\n+    &-text {\r\n+      \r\n+    }\r\n   }\r\n   &__account {\r\n     width: 307px;\r\n     grid-column: 9/12;\r\n"
+                },
+                {
+                    "date": 1657960393508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,9 @@\n   }\r\n   &__support {\r\n     color: $color-white;\r\n     &-text {\r\n+      font-size: 14px;\r\n       \r\n     }\r\n   }\r\n   &__account {\r\n"
+                },
+                {
+                    "date": 1657960403426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n   &__support {\r\n     color: $color-white;\r\n     &-text {\r\n       font-size: 14px;\r\n-      \r\n+      line-height: 21px;\r\n     }\r\n   }\r\n   &__account {\r\n     width: 307px;\r\n"
+                },
+                {
+                    "date": 1657960433469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,8 +52,10 @@\n     color: $color-white;\r\n     &-text {\r\n       font-size: 14px;\r\n       line-height: 21px;\r\n+      font-weight: 200;\r\n+      font-style: italic;\r\n     }\r\n   }\r\n   &__account {\r\n     width: 307px;\r\n"
+                },
+                {
+                    "date": 1657960490883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,8 +55,11 @@\n       line-height: 21px;\r\n       font-weight: 200;\r\n       font-style: italic;\r\n     }\r\n+    &-nums {\r\n+      \r\n+    }\r\n   }\r\n   &__account {\r\n     width: 307px;\r\n     grid-column: 9/12;\r\n"
+                },
+                {
+                    "date": 1657960516683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,12 @@\n       font-weight: 200;\r\n       font-style: italic;\r\n     }\r\n     &-nums {\r\n-      \r\n+      font-size: 14px;\r\n+      line-height: 21px;\r\n+      font-weight: 300;\r\n+      font-style: italic;\r\n     }\r\n   }\r\n   &__account {\r\n     width: 307px;\r\n"
+                },
+                {
+                    "date": 1657960755215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,11 @@\n   &__phone , &__mail {\r\n     display: flex;\r\n     justify-content: space-between;\r\n   }\r\n+  &__mail {\r\n+    margin-top: 15px;\r\n+  }\r\n   &__icon {\r\n     display: inline-block;\r\n     position: relative;\r\n     width: 28px;\r\n"
+                },
+                {
+                    "date": 1657960833478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,8 +57,9 @@\n       font-size: 14px;\r\n       line-height: 21px;\r\n       font-weight: 200;\r\n       font-style: italic;\r\n+      text-align: end;\r\n     }\r\n     &-nums {\r\n       font-size: 14px;\r\n       line-height: 21px;\r\n"
+                },
+                {
+                    "date": 1657960868643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,14 +52,14 @@\n     margin-right: 36px;\r\n   }\r\n   &__support {\r\n     color: $color-white;\r\n+    text-align: end;\r\n     &-text {\r\n       font-size: 14px;\r\n       line-height: 21px;\r\n       font-weight: 200;\r\n       font-style: italic;\r\n-      text-align: end;\r\n     }\r\n     &-nums {\r\n       font-size: 14px;\r\n       line-height: 21px;\r\n"
+                },
+                {
+                    "date": 1657961477069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,8 @@\n .header {\r\n   display: grid;\r\n   grid-template-rows: 111px 64px 493px;\r\n   background-color: $color-text;\r\n-  .container {\r\n-    align-items: center;\r\n-  }\r\n   .logo {\r\n     &__link {\r\n       cursor: pointer;\r\n     }\r\n"
+                },
+                {
+                    "date": 1657962634375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,11 @@\n .header {\r\n   display: grid;\r\n   grid-template-rows: 111px 64px 493px;\r\n   background-color: $color-text;\r\n+  &__top {\r\n+    align-self: center;\r\n+  }\r\n   .logo {\r\n     &__link {\r\n       cursor: pointer;\r\n     }\r\n"
+                },
+                {
+                    "date": 1657968051970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,5 +88,10 @@\n         transform: translate(-50%, -50%);\r\n       }\r\n     }\r\n   }\r\n+  &__promo {\r\n+    &-img {\r\n+      grid-column: 6;\r\n+  }\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657969155269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,10 +88,5 @@\n         transform: translate(-50%, -50%);\r\n       }\r\n     }\r\n   }\r\n-  &__promo {\r\n-    &-img {\r\n-      grid-column: 6;\r\n-  }\r\n-  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657969165820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n @import 'blocks/promo.scss';\r\n .header {\r\n   display: grid;\r\n-  grid-template-rows: 111px 64px 493px;\r\n+  grid-template-rows: 111px 64px;\r\n   background-color: $color-text;\r\n   &__top {\r\n     align-self: center;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658151332351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,10 @@\n     }\r\n   }\r\n   &__logo {\r\n     grid-column: 1/2;\r\n+    width: 143px;\r\n+    height: 88.06px;\r\n   }\r\n   &__contacts {\r\n     grid-column: 5/6;\r\n     flex-direction: column;\r\n"
+                },
+                {
+                    "date": 1658151411091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n     }\r\n   }\r\n   &__logo {\r\n     grid-column: 1/2;\r\n+    \r\n     width: 143px;\r\n     height: 88.06px;\r\n   }\r\n   &__contacts {\r\n"
+                },
+                {
+                    "date": 1658151729897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     }\r\n   }\r\n   &__logo {\r\n     grid-column: 1/2;\r\n-    \r\n+    margin-left: 18px;\r\n     width: 143px;\r\n     height: 88.06px;\r\n   }\r\n   &__contacts {\r\n"
+                },
+                {
+                    "date": 1658151820440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,8 @@\n     }\r\n   }\r\n   &__logo {\r\n     grid-column: 1/2;\r\n-    margin-left: 18px;\r\n     width: 143px;\r\n     height: 88.06px;\r\n   }\r\n   &__contacts {\r\n"
+                },
+                {
+                    "date": 1658151840138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n     }\r\n   }\r\n   &__logo {\r\n     grid-column: 1/2;\r\n+    margin-left: 18px;\r\n     width: 143px;\r\n     height: 88.06px;\r\n   }\r\n   &__contacts {\r\n"
+                },
+                {
+                    "date": 1658153653875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     }\r\n   }\r\n   &__logo {\r\n     grid-column: 1/2;\r\n-    margin-left: 18px;\r\n+    margin-left: 11px;\r\n     width: 143px;\r\n     height: 88.06px;\r\n   }\r\n   &__contacts {\r\n"
+                },
+                {
+                    "date": 1658153906876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,9 @@\n   }\r\n   &__phone , &__mail {\r\n     display: flex;\r\n     justify-content: space-between;\r\n+    align-items: center;\r\n   }\r\n   &__mail {\r\n     margin-top: 15px;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658154420000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-@import 'blocks/promo.scss';\r\n+\r\n .header {\r\n   display: grid;\r\n   grid-template-rows: 111px 64px;\r\n   background-color: $color-text;\r\n"
+                },
+                {
+                    "date": 1658154756921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,8 +58,9 @@\n   &__support {\r\n     color: $color-white;\r\n     text-align: end;\r\n     &-text {\r\n+      margin-right: 12px;\r\n       font-size: 14px;\r\n       line-height: 21px;\r\n       font-weight: 200;\r\n       font-style: italic;\r\n"
+                },
+                {
+                    "date": 1658154885238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,8 +59,9 @@\n     color: $color-white;\r\n     text-align: end;\r\n     &-text {\r\n       margin-right: 12px;\r\n+      margin-bottom: 7px;\r\n       font-size: 14px;\r\n       line-height: 21px;\r\n       font-weight: 200;\r\n       font-style: italic;\r\n"
+                },
+                {
+                    "date": 1658155007103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,11 @@\n     justify-content: space-between;\r\n     align-items: center;\r\n   }\r\n   &__mail {\r\n+    margin-top: 18px;\r\n+  }\r\n+  &__mail {\r\n     margin-top: 15px;\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n"
+                },
+                {
+                    "date": 1658155048976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,9 @@\n   &__phone , &__mail {\r\n     display: flex;\r\n     justify-content: space-between;\r\n     align-items: center;\r\n+    margin-top: 18px;\r\n   }\r\n   &__mail {\r\n     margin-top: 18px;\r\n   }\r\n"
+                },
+                {
+                    "date": 1658155071165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,14 +25,10 @@\n   &__phone , &__mail {\r\n     display: flex;\r\n     justify-content: space-between;\r\n     align-items: center;\r\n-    margin-top: 18px;\r\n   }\r\n   &__mail {\r\n-    margin-top: 18px;\r\n-  }\r\n-  &__mail {\r\n     margin-top: 15px;\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n"
+                },
+                {
+                    "date": 1658155092137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,11 +26,8 @@\n     display: flex;\r\n     justify-content: space-between;\r\n     align-items: center;\r\n   }\r\n-  &__mail {\r\n-    margin-top: 15px;\r\n-  }\r\n   &__icon {\r\n     display: inline-block;\r\n     position: relative;\r\n     width: 28px;\r\n"
+                },
+                {
+                    "date": 1658155189552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,11 @@\n     display: flex;\r\n     justify-content: space-between;\r\n     align-items: center;\r\n   }\r\n+  &__mail {\r\n+    margin-top: 18px;\r\n+  }\r\n   &__icon {\r\n     display: inline-block;\r\n     position: relative;\r\n     width: 28px;\r\n"
+                },
+                {
+                    "date": 1658155271262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     justify-content: space-between;\r\n     align-items: center;\r\n   }\r\n   &__mail {\r\n-    margin-top: 18px;\r\n+    margin-top: 11px;\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n     position: relative;\r\n"
+                },
+                {
+                    "date": 1658155335399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n   &__contacts {\r\n     grid-column: 5/6;\r\n     flex-direction: column;\r\n     width: 178px;\r\n+    height: 87px;\r\n   }\r\n   &__phone , &__mail {\r\n     display: flex;\r\n     justify-content: space-between;\r\n"
+                },
+                {
+                    "date": 1658155412666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     justify-content: space-between;\r\n     align-items: center;\r\n   }\r\n   &__mail {\r\n-    margin-top: 11px;\r\n+    margin-top: 14px;\r\n   }\r\n   &__icon {\r\n     display: inline-block;\r\n     position: relative;\r\n"
+                },
+                {
+                    "date": 1658155478519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,8 @@\n     color: $color-white;\r\n     text-align: end;\r\n     &-text {\r\n       margin-right: 12px;\r\n-      margin-bottom: 7px;\r\n       font-size: 14px;\r\n       line-height: 21px;\r\n       font-weight: 200;\r\n       font-style: italic;\r\n"
+                },
+                {
+                    "date": 1658156437657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,9 @@\n   &__btn {\r\n     margin-right: 36px;\r\n   }\r\n   &__support {\r\n+    height: 21px;\r\n     color: $color-white;\r\n     text-align: end;\r\n     &-text {\r\n       margin-right: 12px;\r\n"
+                },
+                {
+                    "date": 1658156649716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,8 +65,9 @@\n       font-size: 14px;\r\n       line-height: 21px;\r\n       font-weight: 200;\r\n       font-style: italic;\r\n+      vertical-align: text-top;\r\n     }\r\n     &-nums {\r\n       font-size: 14px;\r\n       line-height: 21px;\r\n"
+                },
+                {
+                    "date": 1658156660975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n       font-size: 14px;\r\n       line-height: 21px;\r\n       font-weight: 200;\r\n       font-style: italic;\r\n-      vertical-align: text-top;\r\n+      vertical-align: top;\r\n     }\r\n     &-nums {\r\n       font-size: 14px;\r\n       line-height: 21px;\r\n"
+                },
+                {
+                    "date": 1658156720429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,8 @@\n       font-size: 14px;\r\n       line-height: 21px;\r\n       font-weight: 200;\r\n       font-style: italic;\r\n-      vertical-align: top;\r\n     }\r\n     &-nums {\r\n       font-size: 14px;\r\n       line-height: 21px;\r\n"
+                },
+                {
+                    "date": 1658156890959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,9 @@\n   }\r\n   &__account {\r\n     width: 307px;\r\n     grid-column: 9/12;\r\n-    margin-left: 70px;\r\n+    margin-left: 71px;\r\n     display: flex;\r\n     align-items: center;\r\n     &-btn {\r\n       position: relative;\r\n"
+                },
+                {
+                    "date": 1658199478341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,8 +67,12 @@\n       font-weight: 200;\r\n       font-style: italic;\r\n     }\r\n     &-nums {\r\n+      display: inline-block;\r\n+      margin-top: -3px;\r\n+      vertical-align: top;\r\n+      height: 21px;\r\n       font-size: 14px;\r\n       line-height: 21px;\r\n       font-weight: 300;\r\n       font-style: italic;\r\n"
+                },
+                {
+                    "date": 1658200413747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n     height: 21px;\r\n     color: $color-white;\r\n     text-align: end;\r\n     &-text {\r\n-      margin-right: 12px;\r\n+      margin-right: 10px;\r\n       font-size: 14px;\r\n       line-height: 21px;\r\n       font-weight: 200;\r\n       font-style: italic;\r\n"
+                },
+                {
+                    "date": 1658200533031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,11 +61,12 @@\n     color: $color-white;\r\n     text-align: end;\r\n     &-text {\r\n       margin-right: 10px;\r\n+      height: 21px;\r\n       font-size: 14px;\r\n-      line-height: 21px;\r\n       font-weight: 200;\r\n+      vertical-align: top;\r\n       font-style: italic;\r\n     }\r\n     &-nums {\r\n       display: inline-block;\r\n"
+                },
+                {
+                    "date": 1658200707308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,11 +79,11 @@\n       font-style: italic;\r\n     }\r\n   }\r\n   &__account {\r\n-    width: 307px;\r\n+    width: 311px;\r\n     grid-column: 9/12;\r\n-    margin-left: 71px;\r\n+    margin-left: 69px;\r\n     display: flex;\r\n     align-items: center;\r\n     &-btn {\r\n       position: relative;\r\n"
+                }
+            ],
+            "date": 1657879047763,
+            "name": "Commit-0",
+            "content": ".header {\r\n  background-color: ;\r\n}"
+        }
+    ]
+}

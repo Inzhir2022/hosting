@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 29,
             "patches": [
                 {
                     "date": 1657815944478,
@@ -20,6 +20,110 @@
                 {
                     "date": 1657817620348,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n @import 'base/variables.scss';\r\n+@import 'base/fonts.scss';\r\n \r\n * {\r\n   margin: 0;\r\n   padding: 0;\r\n"
+                },
+                {
+                    "date": 1657876600924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,4 +5,8 @@\n   margin: 0;\r\n   padding: 0;\r\n   box-sizing: border-box;\r\n }\r\n+\r\n+.container {\r\n+  max-width: 1185px;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657876890437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,9 @@\n   box-sizing: border-box;\r\n }\r\n \r\n .container {\r\n+  display: grid;\r\n+  grid-template-columns: repeat(12, 80px);\r\n   max-width: 1185px;\r\n+\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657877024249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,7 +9,8 @@\n \r\n .container {\r\n   display: grid;\r\n   grid-template-columns: repeat(12, 80px);\r\n+  column-gap: 20px;\r\n   max-width: 1185px;\r\n \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657877073148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,7 @@\n .container {\r\n   display: grid;\r\n   grid-template-columns: repeat(12, 80px);\r\n   column-gap: 20px;\r\n-  max-width: 1185px;\r\n+  max-width: 1180px;\r\n \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657879118306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,7 @@\n   grid-template-columns: repeat(12, 80px);\r\n   column-gap: 20px;\r\n   max-width: 1180px;\r\n \r\n-}\n\\ No newline at end of file\n+}\r\n+\r\n+@import 'blocks/header.scss';\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657879227040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,12 @@\n   padding: 0;\r\n   box-sizing: border-box;\r\n }\r\n \r\n+body {\r\n+  margin: 0 auto;\r\n+}\r\n+\r\n .container {\r\n   display: grid;\r\n   grid-template-columns: repeat(12, 80px);\r\n   column-gap: 20px;\r\n"
+                },
+                {
+                    "date": 1657879239192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,8 @@\n   padding: 0;\r\n   box-sizing: border-box;\r\n }\r\n \r\n-body {\r\n-  margin: 0 auto;\r\n-}\r\n \r\n .container {\r\n   display: grid;\r\n   grid-template-columns: repeat(12, 80px);\r\n"
+                },
+                {
+                    "date": 1657879264113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n .container {\r\n   display: grid;\r\n   grid-template-columns: repeat(12, 80px);\r\n   column-gap: 20px;\r\n+  margin: 0 auto;\r\n   max-width: 1180px;\r\n \r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1657879772696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,12 @@\n \r\n * {\r\n   margin: 0;\r\n   padding: 0;\r\n+ \r\n+}\r\n+\r\n+body {\r\n   box-sizing: border-box;\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1657879794935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,14 +3,11 @@\n \r\n * {\r\n   margin: 0;\r\n   padding: 0;\r\n- \r\n+ box-sizing: border-box;\r\n }\r\n \r\n-body {\r\n-  box-sizing: border-box;\r\n-}\r\n \r\n \r\n .container {\r\n   display: grid;\r\n"
+                },
+                {
+                    "date": 1657883781160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,13 +3,17 @@\n \r\n * {\r\n   margin: 0;\r\n   padding: 0;\r\n- box-sizing: border-box;\r\n+  box-sizing: border-box;\r\n }\r\n \r\n+body {\r\n+  font-family: ;\r\n+}\r\n \r\n \r\n+\r\n .container {\r\n   display: grid;\r\n   grid-template-columns: repeat(12, 80px);\r\n   column-gap: 20px;\r\n"
+                },
+                {
+                    "date": 1657883828016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   box-sizing: border-box;\r\n }\r\n \r\n body {\r\n-  font-family: ;\r\n+  font-family: 'SF Pro Display', sans-serif;\r\n }\r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1657888395380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,6 @@\n   max-width: 1180px;\r\n \r\n }\r\n \r\n-@import 'blocks/header.scss';\n\\ No newline at end of file\n+@import 'blocks/header.scss';\r\n+@import 'blobks/btn.scss';\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657888416521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,5 +22,5 @@\n \r\n }\r\n \r\n @import 'blocks/header.scss';\r\n-@import 'blobks/btn.scss';\n\\ No newline at end of file\n+@import 'blocks/btn.scss';\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657890619731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,5 +22,6 @@\n \r\n }\r\n \r\n @import 'blocks/header.scss';\r\n-@import 'blocks/btn.scss';\n\\ No newline at end of file\n+@import 'blocks/btn.scss';\r\n+@import 'blocks/menu.scss';\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657890827682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n }\r\n \r\n @import 'blocks/header.scss';\r\n @import 'blocks/btn.scss';\r\n-@import 'blocks/menu.scss';\n\\ No newline at end of file\n+@import 'blocks/menu.scss';\r\n"
+                },
+                {
+                    "date": 1657967643252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,4 +24,5 @@\n \r\n @import 'blocks/header.scss';\r\n @import 'blocks/btn.scss';\r\n @import 'blocks/menu.scss';\r\n+@import 'blobks/promo.scss';\r\n"
+                },
+                {
+                    "date": 1657967679464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,5 +24,5 @@\n \r\n @import 'blocks/header.scss';\r\n @import 'blocks/btn.scss';\r\n @import 'blocks/menu.scss';\r\n-@import 'blobks/promo.scss';\r\n+@import 'blocks/promo.scss';\r\n"
+                },
+                {
+                    "date": 1657987055948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,4 +25,5 @@\n @import 'blocks/header.scss';\r\n @import 'blocks/btn.scss';\r\n @import 'blocks/menu.scss';\r\n @import 'blocks/promo.scss';\r\n+@import 'blocks/tariffs.scss';\r\n"
+                },
+                {
+                    "date": 1657989614018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,4 +26,5 @@\n @import 'blocks/btn.scss';\r\n @import 'blocks/menu.scss';\r\n @import 'blocks/promo.scss';\r\n @import 'blocks/tariffs.scss';\r\n+@import 'blocks/tariffsCard.scss';\r\n"
+                },
+                {
+                    "date": 1657992934999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,17 +10,18 @@\n body {\r\n   font-family: 'SF Pro Display', sans-serif;\r\n }\r\n \r\n-\r\n-\r\n .container {\r\n   display: grid;\r\n   grid-template-columns: repeat(12, 80px);\r\n   column-gap: 20px;\r\n   margin: 0 auto;\r\n   max-width: 1180px;\r\n+}\r\n \r\n+ul {\r\n+  list-style-type: none;\r\n }\r\n \r\n @import 'blocks/header.scss';\r\n @import 'blocks/btn.scss';\r\n"
+                },
+                {
+                    "date": 1658122687046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,4 +28,9 @@\n @import 'blocks/menu.scss';\r\n @import 'blocks/promo.scss';\r\n @import 'blocks/tariffs.scss';\r\n @import 'blocks/tariffsCard.scss';\r\n+@import 'blocks/bonus.scss';\r\n+@import 'blocks/cms.scss';\r\n+@import 'blocks/ssl.scss';\r\n+@import 'blocks/domains.scss';\r\n+@import 'blocks/footer.scss';\r\n"
+                },
+                {
+                    "date": 1658126665842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,12 @@\n ul {\r\n   list-style-type: none;\r\n }\r\n \r\n+a {\r\n+  text-decoration: none;\r\n+}\r\n+\r\n @import 'blocks/header.scss';\r\n @import 'blocks/btn.scss';\r\n @import 'blocks/menu.scss';\r\n @import 'blocks/promo.scss';\r\n"
+                },
+                {
+                    "date": 1658130690490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,9 @@\n }\r\n \r\n @import 'blocks/header.scss';\r\n @import 'blocks/btn.scss';\r\n+@import 'blocks/text';\r\n @import 'blocks/menu.scss';\r\n @import 'blocks/promo.scss';\r\n @import 'blocks/tariffs.scss';\r\n @import 'blocks/tariffsCard.scss';\r\n"
+                },
+                {
+                    "date": 1658308470587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,4 +38,5 @@\n @import 'blocks/cms.scss';\r\n @import 'blocks/ssl.scss';\r\n @import 'blocks/domains.scss';\r\n @import 'blocks/footer.scss';\r\n+@import 'blocks/medis.scss';\r\n"
+                },
+                {
+                    "date": 1658311567521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,5 +38,5 @@\n @import 'blocks/cms.scss';\r\n @import 'blocks/ssl.scss';\r\n @import 'blocks/domains.scss';\r\n @import 'blocks/footer.scss';\r\n-@import 'blocks/medis.scss';\r\n+@import 'blocks/media.scss';\r\n"
                 }
             ],
             "date": 1657815944477,

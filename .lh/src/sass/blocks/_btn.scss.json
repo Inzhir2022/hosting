@@ -1,0 +1,78 @@
+{
+    "sourceFile": "src/sass/blocks/_btn.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 15,
+            "patches": [
+                {
+                    "date": 1657888291785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1657888305870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n .btn {\r\n-  width: ;\r\n+  width: 232px;\r\n+  height: 44px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657888356741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n .btn {\r\n   width: 232px;\r\n   height: 44px;\r\n+  background-color: $color-blue;\r\n+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n+  border-radius: 5px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657888434372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,6 @@\n   height: 44px;\r\n   background-color: $color-blue;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   border-radius: 5px;\r\n+  cursor: pointer;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657888455681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n   height: 44px;\r\n   background-color: $color-blue;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   border-radius: 5px;\r\n+  color: $color-white;\r\n   cursor: pointer;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657888526191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,7 @@\n   background-color: $color-blue;\r\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   border-radius: 5px;\r\n   color: $color-white;\r\n+  font-size: $font-size-btn2;\r\n   cursor: pointer;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657888562944,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,7 @@\n   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\r\n   border-radius: 5px;\r\n   color: $color-white;\r\n   font-size: $font-size-btn2;\r\n+  line-height: $line-height-btn2;\r\n   cursor: pointer;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657888602311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,7 @@\n   border-radius: 5px;\r\n   color: $color-white;\r\n   font-size: $font-size-btn2;\r\n   line-height: $line-height-btn2;\r\n+  letter-spacing: $letter-spacing-btns;\r\n   cursor: pointer;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1657888638740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,7 @@\n   color: $color-white;\r\n   font-size: $font-size-btn2;\r\n   line-height: $line-height-btn2;\r\n   letter-spacing: $letter-spacing-btns;\r\n+  font-weight: $font-weight-medium;\r\n   cursor: pointer;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658126472884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,19 @@\n   font-size: $font-size-btn2;\r\n   line-height: $line-height-btn2;\r\n   letter-spacing: $letter-spacing-btns;\r\n   font-weight: $font-weight-medium;\r\n+  border: none;\r\n   cursor: pointer;\r\n+  &_medium {\r\n+    width: 319px;\r\n+    background-color: $color-orange;\r\n+  }\r\n+  &_long {\r\n+    width: 419px;\r\n+    box-shadow: 0px 4px 4px rgba(46, 46, 46, 0.27);\r\n+    background-color: $color-orange;\r\n+  }\r\n+  &_small {\r\n+    \r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658126497040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,7 +20,8 @@\n     box-shadow: 0px 4px 4px rgba(46, 46, 46, 0.27);\r\n     background-color: $color-orange;\r\n   }\r\n   &_small {\r\n-    \r\n+    width: 88px;\r\n+    height: 31px;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658126538379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,6 +22,7 @@\n   }\r\n   &_small {\r\n     width: 88px;\r\n     height: 31px;\r\n+    font-size: 14px;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658126545952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,6 +23,7 @@\n   &_small {\r\n     width: 88px;\r\n     height: 31px;\r\n     font-size: 14px;\r\n+    font-weight: 400;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658137374318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,7 +23,8 @@\n   &_small {\r\n     width: 88px;\r\n     height: 31px;\r\n     font-size: 14px;\r\n+    line-height: 21px;\r\n     font-weight: 400;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658137424742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n     box-shadow: 0px 4px 4px rgba(46, 46, 46, 0.27);\r\n     background-color: $color-orange;\r\n   }\r\n   &_small {\r\n+    padding: 5px;\r\n     width: 88px;\r\n     height: 31px;\r\n     font-size: 14px;\r\n     line-height: 21px;\r\n"
+                },
+                {
+                    "date": 1658137571981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,12 +20,12 @@\n     box-shadow: 0px 4px 4px rgba(46, 46, 46, 0.27);\r\n     background-color: $color-orange;\r\n   }\r\n   &_small {\r\n-    padding: 5px;\r\n     width: 88px;\r\n     height: 31px;\r\n     font-size: 14px;\r\n     line-height: 21px;\r\n     font-weight: 400;\r\n+    letter-spacing: normal;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1657888291785,
+            "name": "Commit-0",
+            "content": ".btn {\r\n  width: ;\r\n}"
+        }
+    ]
+}
